@@ -16,7 +16,7 @@ header {
     background: #0D3B66; /* Deep blue for the header */
     color: white;
     text-align: center;
-    padding: 1rem 0;
+    padding: 1rem 5%; /* Adjusted to match section padding */
 }
 
 header .tagline {
@@ -27,7 +27,7 @@ header .tagline {
 /* Navigation Styles */
 nav {
     background: #3E92CC; /* Light blue navigation background */
-    padding: 0.5rem 0;
+    padding: 0.5rem 5%; /* Adjusted to match section padding */
 }
 
 nav .menu {
@@ -83,7 +83,7 @@ nav .menu li:hover > .submenu {
     width: 90%;
     max-width: 1100px; /* Matches the header width */
     margin: 2rem auto; /* Centers the container and adds spacing */
-    padding: 1rem;
+    padding: 1rem 5%; /* Adjusted padding to align with header and footer */
     background-color: #E6EEF8; /* Soft blue background for better readability */
     color: #0D3B66; /* Matching text color for contrast */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for separation */
@@ -93,6 +93,7 @@ nav .menu li:hover > .submenu {
 /* Featured Products Section */
 .featured-products {
     text-align: center;
+    padding: 1rem 5%; /* Adjusted padding to align with header and footer */
 }
 
 .featured-products h2 {
@@ -198,7 +199,7 @@ footer {
     background: #0D3B66; /* Deep blue footer */
     color: white;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 5%; /* Adjusted to align with header and sections */
     margin-top: auto;
     font-size: 0.9rem;
 }
