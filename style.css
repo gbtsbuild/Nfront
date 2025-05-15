@@ -3,7 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #EFFAFD;
+    background-color: #002349;
     color: #222;
 }
 
@@ -38,7 +38,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #48ABDF;
+    background-color: #F4D35E;
     margin: 0;
 }
 
@@ -163,7 +163,7 @@ footer {
 
 .footer-links a {
     margin: 0 10px;
-    color: white;
+    color: F4D35E;
     text-decoration: none;
 }
 
@@ -172,7 +172,7 @@ footer {
 }
 
 footer address {
-    font-style: normal;
+    font-style: small;
     margin: 1rem 0;
 }
 
