@@ -38,7 +38,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #ff6b6b;
+    background-color: #2d34;
     margin: 0;
 }
 
@@ -115,7 +115,7 @@ main {
 }
 
 .cta-button {
-    background-color: #ff6b6b;
+    background-color: #002349;
     color: white;
     padding: 0.7rem 1.5rem;
     text-decoration: none;
@@ -173,7 +173,7 @@ footer {
 
 footer address {
     font-style: normal;
-    font-size: 1.0rem
+    font-size: 0.9rem
     margin: 1rem 0;
 }
 
