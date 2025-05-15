@@ -3,7 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #002349;
+    background-color: #EFFAFD;
     color: #222;
 }
 
@@ -15,7 +15,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #002349;
+    background-color: #2d3436;
     color: white;
     padding: 2rem 0;
     text-align: center;
@@ -38,7 +38,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #F4D35E;
+    background-color: #ff6b6b;
     margin: 0;
 }
 
@@ -115,7 +115,7 @@ main {
 }
 
 .cta-button {
-    background-color: #00509e;
+    background-color: #ff6b6b;
     color: white;
     padding: 0.7rem 1.5rem;
     text-decoration: none;
@@ -125,7 +125,7 @@ main {
 }
 
 .cta-button:hover {
-    background-color: #003366;
+    background-color: #f9f9f9;
 }
 
 /* Section styles */
@@ -151,7 +151,7 @@ main {
 
 /* Footer styles */
 footer {
-    background-color: #002349;
+    background-color: #2d3436;
     color: white;
     padding: 2rem 0;
     text-align: center;
@@ -163,7 +163,7 @@ footer {
 
 .footer-links a {
     margin: 0 10px;
-    color: F4D35E;
+    color: #4ecdc4;
     text-decoration: none;
 }
 
@@ -172,12 +172,13 @@ footer {
 }
 
 footer address {
-    font-style: small;
+    font-style: normal;
+    font-size: 1.0rem
     margin: 1rem 0;
 }
 
 footer a {
-    color: #F4D35E;
+    color: #4ecdc4;
     text-decoration: none;
 }
 
