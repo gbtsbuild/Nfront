@@ -15,7 +15,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #0D3B66;
+    background-color: #4A8BDF;
     color: white;
     padding: 2rem 0;
     text-align: center;
@@ -38,7 +38,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #3E92CC;
+    background-color: #0FFCBE;
     margin: 0;
 }
 
@@ -151,7 +151,7 @@ main {
 
 /* Footer styles */
 footer {
-    background-color: #0D3B66;
+    background-color: #4A8BDF;
     color: white;
     padding: 2rem 0;
     text-align: center;
