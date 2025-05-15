@@ -3,8 +3,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
-    color: #333;
+    background-color: #F5F7FA;
+    color: #222;
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #003366;
+    background-color: #0D3B66;
     color: white;
     padding: 2rem 0;
     text-align: center;
@@ -38,7 +38,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #00509e;
+    background-color: #3E92CC;
     margin: 0;
 }
 
@@ -54,7 +54,7 @@ nav .menu a {
 }
 
 nav .menu a:hover {
-    background-color: #003366;
+    background-color: #3E92CC;
 }
 
 nav .submenu {
@@ -151,7 +151,7 @@ main {
 
 /* Footer styles */
 footer {
-    background-color: #003366;
+    background-color: #0D3B66;
     color: white;
     padding: 2rem 0;
     text-align: center;
@@ -177,7 +177,7 @@ footer address {
 }
 
 footer a {
-    color: #add8e6;
+    color: #F4D35E;
     text-decoration: none;
 }
 
