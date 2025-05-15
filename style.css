@@ -3,7 +3,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F7FA;
+    background-color: #EFFAFD;
     color: #222;
 }
 
@@ -15,7 +15,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #4A8BDF;
+    background-color: #002349;
     color: white;
     padding: 2rem 0;
     text-align: center;
@@ -38,7 +38,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #0FFCBE;
+    background-color: #48ABDF;
     margin: 0;
 }
 
@@ -151,7 +151,7 @@ main {
 
 /* Footer styles */
 footer {
-    background-color: #4A8BDF;
+    background-color: #002349;
     color: white;
     padding: 2rem 0;
     text-align: center;
