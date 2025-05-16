@@ -17,7 +17,7 @@ body {
 header {
     background-color: #1063FF;
     color: white;
-    padding: 1rem 1;
+    padding: 2rem 0.5;
     text-align: center;
 }
 
@@ -51,7 +51,6 @@ nav .menu a {
     padding: 1rem;
     color: black;
     text-decoration: none;
-    font-weight: bold;
 }
 
 nav .menu a:hover {
@@ -154,8 +153,8 @@ main {
 footer {
     background-color: #1063FF;
     color: white;
-    padding: 1rem;
-    text-align: left;
+    padding: 1rem 0.5;
+    text-align: center;
 }
 
 .footer-links {
@@ -174,7 +173,7 @@ footer {
 
 footer address {
     font-style: normal;
-    font-size: 0.8rem
+    font-size: 0.5rem
     margin: 1rem 0;
 }
 
