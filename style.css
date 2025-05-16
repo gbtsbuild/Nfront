@@ -17,7 +17,7 @@ body {
 header {
     background-color: #1063FF;
     color: white;
-    padding: 1rem;
+    padding: 1rem 0;
     text-align: center;
 }
 
@@ -38,7 +38,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #1803A5;
+    background-color: #F2EC9B;
     margin: 0;
 }
 
@@ -49,13 +49,13 @@ nav .menu > li {
 nav .menu a {
     display: block;
     padding: 1rem;
-    color: white;
+    color: black;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav .menu a:hover {
-    background-color: #3E92CC;
+    background-color: #4A8BDF;
 }
 
 nav .submenu {
@@ -66,7 +66,7 @@ nav .submenu {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: #EFFAFD;
+    background-color: #4A8BDF;
     z-index: 999;
 }
 
