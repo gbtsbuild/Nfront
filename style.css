@@ -17,8 +17,9 @@ body {
 header {
     background-color: #1063FF;
     color: white;
-    padding: 20px 0;
+    padding: 1rem 0;
     text-align: center;
+    width: 100%
 }
 
 header h1 {
@@ -183,7 +184,7 @@ main {
 .read-more {
     margin-top: 12px;
     display: inline-block;
-    background-color: #00796b;
+    background-color: #F2EC9B;
     color: white;
     text-decoration: none;
     padding: 8px 14px;
@@ -222,7 +223,7 @@ footer address {
     font-style: normal;
     font-size: 0.85em;
     margin-top: 10px;
-    line-height: 1.6;
+    line-height: 1.0;
 }
 
 footer a {
