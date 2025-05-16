@@ -17,8 +17,9 @@ body {
 header {
     background-color: #1063FF;
     color: white;
-    padding: 1rem 1;
+    padding: 1rem 0;
     text-align: center;
+    width: 100%;
 }
 
 header h1 {
@@ -153,8 +154,9 @@ main {
 footer {
     background-color: #1063FF;
     color: white;
-    padding: 1rem 1;
+    padding: 1rem 0;
     text-align: center;
+    width: 100%;
 }
 
 .footer-links {
