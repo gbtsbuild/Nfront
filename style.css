@@ -17,7 +17,7 @@ body {
 header {
     background-color: #1063FF;
     color: white;
-    padding: 1rem 0;
+    padding: 1rem 1;
     text-align: center;
 }
 
@@ -155,7 +155,7 @@ footer {
     background-color: #1063FF;
     color: white;
     padding: 1rem;
-    text-align: center;
+    text-align: left;
 }
 
 .footer-links {
@@ -164,7 +164,7 @@ footer {
 
 .footer-links a {
     margin: 0 10px;
-    color: #0FFCBE;
+    color: #F2EC9B;
     text-decoration: none;
 }
 
@@ -179,7 +179,7 @@ footer address {
 }
 
 footer a {
-    color: #0FFCBE;
+    color: #FFF;
     text-decoration: none;
 }
 
