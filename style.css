@@ -3,12 +3,12 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #EFFAFD;
+    background-color: #EDF4F2;
     color: #222;
 }
 /* Header styles */
 header {
-    background-color: #909EAE;
+    background-color: #4C8055;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -36,7 +36,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #736F60;
+    background-color: #68A4A5;
     margin: 0;
 }
 
@@ -73,7 +73,7 @@ nav .submenu li a {
 
 .cart-icon a {
     color: #FFF;
-    text-decoration: outline;
+    text-decoration: none;
 }
 
 .cart-icon {
@@ -114,7 +114,7 @@ main {
     margin: 1rem 0 0.5rem;
 }
 .price {
-    color: #5C8DC5;
+    color: #7C8363;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -140,7 +140,7 @@ main {
     display: inline-block;
     margin-top: 12px;
     padding: 10px 20px;
-    background-color: #1063FF;
+    background-color: #7C8363;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -165,7 +165,7 @@ main {
 }
 .blog-excerpt h3 {
     margin-top: 0;
-    color: #736F60; /* Retaining original color palette */
+    color: #31473A; /* Retaining original color palette */
 }
 .blog-excerpt p {
     margin-bottom: 1rem;
@@ -187,7 +187,7 @@ main {
     }
 /* Footer styles */
 footer {
-    background-color: #909EAE;
+    background-color: #4C8055;
     color: white;
     padding: 1rem 0;
     text-align: center;
