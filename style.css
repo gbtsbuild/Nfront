@@ -15,7 +15,7 @@ header {
     width: 100%
 }
 
-header h4 {
+header h3 {
     margin: 0;
     font-size: 2.5rem;
 }
@@ -36,7 +36,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #68A4A5;
+    background-color: #00A86B;
     margin: 0;
 }
 
@@ -88,6 +88,27 @@ nav .submenu li a {
 .cart-icon a:hover {
     color: #ffd700; /* hover effect */
 }
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.cart-icon a,
+.search-icon a {
+    font-size: 1.2em;
+    color: #fff;
+}
+
 /* Main content */
 main {
     padding: 30px 20px;
@@ -140,7 +161,7 @@ main {
     display: inline-block;
     margin-top: 12px;
     padding: 10px 20px;
-    background-color: #7C8363;
+    background-color: #4C8055;
     color: #fff;
     text-decoration: none;
     border-radius: 4px;
@@ -183,7 +204,7 @@ main {
     background-color: #145DA0;
 }
 .read-more:hover {
-    background-color: #909EAE;
+    background-color: #4C8055;
     }
 /* Footer styles */
 footer {
