@@ -17,7 +17,7 @@ header {
 
 header h4 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
 }
 
 header {
@@ -36,7 +36,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #8EC9BC;
+    background-color: #CEE6F2;
     margin: 0;
 }
 
@@ -72,7 +72,7 @@ nav .submenu li a {
 }
 
 .cart-icon a {
-    color: #FFF;
+    color: #080205;
     text-decoration: none;
 }
 
@@ -105,7 +105,7 @@ nav .submenu li a {
 .cart-icon a,
 .search-icon a {
     font-size: 1.2em;
-    color: #fff;
+    color: #080205;
 }
 
 /* Main content */
@@ -134,7 +134,7 @@ main {
     margin: 1rem 0 0.5rem;
 }
 .price {
-    color: #7C8363;
+    color: #507B6A;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -185,7 +185,7 @@ main {
 }
 .blog-excerpt h3 {
     margin-top: 0;
-    color: #355952;
+    color: #507B6A;
 }
 .blog-excerpt p {
     margin-bottom: 1rem;
@@ -203,11 +203,11 @@ main {
     background-color: #145DA0;
 }
 .read-more:hover {
-    background-color: #BCE696;
+    background-color: #507B6A;
     }
 /* Footer styles */
 footer {
-    background-color: #4C8055;
+    background-color: #;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -218,7 +218,7 @@ footer {
 }
 .footer-links a {
     margin: 0 10px;
-    color: #8EC9BC;
+    color: #EDCD44;
     text-decoration: none;
 }
 .footer-links a:hover {
