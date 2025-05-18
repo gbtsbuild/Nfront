@@ -34,9 +34,8 @@ nav .menu {
     list-style: none;
     padding: 0;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    background-color: #EDCD44;
+    background-color: #D09440;
     margin: 0;
 }
 
@@ -79,7 +78,6 @@ nav .submenu li a {
 .cart-icon {
     position: absolute;
     right: 20px;
-    font-size: 1.2em;
 }
 .cart-icon {
     margin-left: auto;
@@ -104,7 +102,7 @@ nav .submenu li a {
 
 .cart-icon a,
 .search-icon a {
-    font-size: 1.2em;
+    font-size: 1.0em;
     color: #080205;
 }
 
@@ -134,7 +132,7 @@ main {
     margin: 1rem 0 0.5rem;
 }
 .price {
-    color: #507B6A;
+    color: #31473A;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -218,7 +216,7 @@ footer {
 }
 .footer-links a {
     margin: 0 10px;
-    color: #EDCD44;
+    color: #D09440;
     text-decoration: none;
 }
 .footer-links a:hover {
@@ -241,7 +239,7 @@ footer a:hover {
 
 /* Social media icons */
 .social-media a {
-    margin-top: 1;
+    margin-top: 3;
     font-size: 1.2rem;
     color: #fff;
 }
