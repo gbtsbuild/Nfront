@@ -31,15 +31,11 @@ header {
 
 /* Navigation menu */
 nav .menu {
-    list-style: horizontal;
+    list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-  <<<<<<< gbtsbuild-patch-48
-    background-color: #675d5a;
-
-    background-color: #675d5a;
-  main
+    background-color: #EDE8D0;
     margin: 0;
 }
 
@@ -49,11 +45,11 @@ nav .menu > li {
 nav .menu a {
     display: block;
     padding: 1rem;
-    color: white;
+    color: FFCE1B;
     text-decoration: none;
 }
 nav .menu a:hover {
-    background-color: #EDF4F2;
+    color: #EDF4F2;
 }
 nav .submenu {
     display: none;
@@ -75,7 +71,7 @@ nav .submenu li a {
 }
 
 .cart-icon a {
-    color: #FFF;
+    color: #FFCE1B;
     text-decoration: none;
 }
 
@@ -93,7 +89,7 @@ nav .submenu li a {
 
 .menu {
     display: flex;
-    align-items: center;
+    align-items: justify;
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
@@ -106,7 +102,7 @@ nav .submenu li a {
 
 .cart-icon a, {
   font-size: 1.0em;
-  color: #FFF;
+  color: #FFCE1B;
 }
 
 /* Main content */
@@ -119,6 +115,8 @@ main {
 .search-icon a {
     font-size: 1.0em;
     color: #080205;
+    position: absolute;
+    left: 20px
 }
 .featured-products {
     text-align: center;
@@ -230,8 +228,7 @@ footer {
 }
 .footer-links a {
     margin: 0 10px;
-  gbtsbuild-patch-48
-    color: #d45e35;
+    color: #FFCE1B;
 
     color: #d45e35;
  main
@@ -257,7 +254,7 @@ footer a:hover {
 
 /* Social media icons */
 .social-media a {
-    margin-top: 2rem;
+    margin-top: 3rem;
     font-size: 1.2rem;
     color: #fff;
 }
