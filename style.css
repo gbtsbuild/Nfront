@@ -8,7 +8,7 @@ body {
 }
 /* Header styles */
 header {
-    background-color: #1063FF;
+    background-color: #909EAE;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -36,26 +36,8 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #F2EC9B;
+    background-color: #736F60;
     margin: 0;
-}
-
-.cart-icon a {
-    color: #1063FF;
-    text-decoration: none;
-}
-
-.cart-icon {
-    position: absolute;
-    right: 20px;
-    font-size: 1.2em;
-}
-.cart-icon {
-    margin-left: auto;
-}
-
-.cart-icon a:hover {
-    color: #ffd700; /* hover effect */
 }
 
 nav .menu > li {
@@ -88,6 +70,24 @@ nav .menu li:hover .submenu {
 nav .submenu li a {
     padding: 12px 16px;
 }
+
+.cart-icon a {
+    color: #FFF;
+    text-decoration: outline;
+}
+
+.cart-icon {
+    position: absolute;
+    right: 20px;
+    font-size: 1.2em;
+}
+.cart-icon {
+    margin-left: auto;
+}
+
+.cart-icon a:hover {
+    color: #ffd700; /* hover effect */
+}
 /* Main content */
 main {
     padding: 30px 20px;
@@ -114,7 +114,7 @@ main {
     margin: 1rem 0 0.5rem;
 }
 .price {
-    color: #00509e;
+    color: #5C8DC5;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -165,7 +165,7 @@ main {
 }
 .blog-excerpt h3 {
     margin-top: 0;
-    color: #003366; /* Retaining original color palette */
+    color: #736F60; /* Retaining original color palette */
 }
 .blog-excerpt p {
     margin-bottom: 1rem;
@@ -183,11 +183,11 @@ main {
     background-color: #145DA0;
 }
 .read-more:hover {
-    background-color: #004d40;
+    background-color: #909EAE;
     }
 /* Footer styles */
 footer {
-    background-color: #1063FF;
+    background-color: #909EAE;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -206,10 +206,10 @@ footer {
 }
 footer address {
     font-style: normal;
-    font-size: 0.65em;
+    font-size: 0.75em;
     margin-top: 10px;
     line-height: 1.2;
-    text-align: left;
+    text-align: center;
 }
 footer a {
     color: #FFF;
