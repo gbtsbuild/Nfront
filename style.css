@@ -31,11 +31,11 @@ header {
 
 /* Navigation menu */
 nav .menu {
-    list-style: none;
+    list-style: horizontal;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    background-color: #D09440;
+    background-color: #FFF;
     margin: 0;
 }
 
@@ -80,7 +80,7 @@ nav .submenu li a {
     right: 20px;
 }
 .cart-icon {
-    margin-left: auto;
+    margin-left: 0;
 }
 
 .cart-icon a:hover {
@@ -93,7 +93,7 @@ nav .submenu li a {
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
-    list-style: none;
+    list-style:none;
 }
 
 .menu li {
@@ -216,7 +216,7 @@ footer {
 }
 .footer-links a {
     margin: 0 10px;
-    color: #D09440;
+    color: #ff6b6b;
     text-decoration: none;
 }
 .footer-links a:hover {
