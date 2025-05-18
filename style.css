@@ -35,7 +35,11 @@ nav .menu {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    background-color: #FFF;
+  <<<<<<< gbtsbuild-patch-48
+    background-color: #675d5a;
+
+    background-color: #675d5a;
+  main
     margin: 0;
 }
 
@@ -45,7 +49,7 @@ nav .menu > li {
 nav .menu a {
     display: block;
     padding: 1rem;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 nav .menu a:hover {
@@ -71,7 +75,7 @@ nav .submenu li a {
 }
 
 .cart-icon a {
-    color: #080205;
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -100,10 +104,9 @@ nav .submenu li a {
     margin: 0 10px;
 }
 
-.cart-icon a,
-.search-icon a {
-    font-size: 1.0em;
-    color: #080205;
+.cart-icon a, {
+  font-size: 1.0em;
+  color: #FFF;
 }
 
 /* Main content */
@@ -111,6 +114,11 @@ main {
     padding: 30px 20px;
     max-width:1200px;
     margin: auto;
+}
+
+.search-icon a {
+    font-size: 1.0em;
+    color: #080205;
 }
 .featured-products {
     text-align: center;
@@ -132,7 +140,7 @@ main {
     margin: 1rem 0 0.5rem;
 }
 .price {
-    color: #31473A;
+    color: #010101;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -176,14 +184,14 @@ main {
 }
 .blog-excerpt {
     border: 1px solid #ccc;
-    padding: 1.5rem;
+    padding: 1.5rem; no
     border-radius: 10px;
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    box-shadow: 0 0 10px rem(0,0,0,0.05);
 }
 .blog-excerpt h3 {
     margin-top: 0;
-    color: #4C8055;
+    color: #010101;
 }
 .blog-excerpt p {
     margin-bottom: 1rem;
@@ -200,6 +208,12 @@ main {
 .blog-excerpt a:hover {
     background-color: #145DA0;
 }
+
+.read-more a {
+    background-color:675d5a;
+    color: white;
+}
+
 .read-more:hover {
     background-color: #507B6A;
     }
@@ -216,14 +230,18 @@ footer {
 }
 .footer-links a {
     margin: 0 10px;
-    color: #ff6b6b;
+  gbtsbuild-patch-48
+    color: #d45e35;
+
+    color: #d45e35;
+ main
     text-decoration: none;
 }
 .footer-links a:hover {
     text-decoration: underline;
 }
 footer address {
-    font-style: normal;
+    font-style: italic;
     font-size: 0.75em;
     margin-top: 10px;
     line-height: 1.2;
@@ -239,7 +257,7 @@ footer a:hover {
 
 /* Social media icons */
 .social-media a {
-    margin-top: 3;
+    margin-top: 2rem;
     font-size: 1.2rem;
     color: #fff;
 }
