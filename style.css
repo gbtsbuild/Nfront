@@ -15,7 +15,7 @@ header {
     width: 100%
 }
 
-header h3 {
+header h4 {
     margin: 0;
     font-size: 2.5rem;
 }
@@ -36,7 +36,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #00A86B;
+    background-color: #8EC9BC;
     margin: 0;
 }
 
@@ -50,7 +50,7 @@ nav .menu a {
     text-decoration: none;
 }
 nav .menu a:hover {
-    background-color: #4A8BDF;
+    background-color: #EDF4F2;
 }
 nav .submenu {
     display: none;
@@ -92,7 +92,6 @@ nav .submenu li a {
 .menu {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
     margin: 0;
@@ -168,7 +167,7 @@ main {
     transition: background 0.3s;
 }
 .cta-button:hover {
-    background-color: #004d40;
+    background-color: #507B6A;
 }
 /* Blog Excerpts Section */
 .blog-excerpts {
@@ -186,7 +185,7 @@ main {
 }
 .blog-excerpt h3 {
     margin-top: 0;
-    color: #31473A; /* Retaining original color palette */
+    color: #355952;
 }
 .blog-excerpt p {
     margin-bottom: 1rem;
@@ -204,7 +203,7 @@ main {
     background-color: #145DA0;
 }
 .read-more:hover {
-    background-color: #4C8055;
+    background-color: #BCE696;
     }
 /* Footer styles */
 footer {
@@ -219,7 +218,7 @@ footer {
 }
 .footer-links a {
     margin: 0 10px;
-    color: #F2EC9B;
+    color: #8EC9BC;
     text-decoration: none;
 }
 .footer-links a:hover {
@@ -253,5 +252,5 @@ footer a:hover {
 /* Copyright */
 footer p {
     margin-top: 1rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
