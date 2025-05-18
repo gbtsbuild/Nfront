@@ -17,7 +17,7 @@ header {
 
 header h4 {
     margin: 0;
-    font-size: 2.0rem;
+    font-size: 1.8rem;
 }
 
 header {
@@ -36,7 +36,7 @@ nav .menu {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #CEE6F2;
+    background-color: #EDCD44;
     margin: 0;
 }
 
@@ -185,7 +185,7 @@ main {
 }
 .blog-excerpt h3 {
     margin-top: 0;
-    color: #507B6A;
+    color: #4C8055;
 }
 .blog-excerpt p {
     margin-bottom: 1rem;
@@ -207,7 +207,7 @@ main {
     }
 /* Footer styles */
 footer {
-    background-color: #;
+    background-color: #4C8055;
     color: white;
     padding: 1rem 0;
     text-align: center;
@@ -241,7 +241,7 @@ footer a:hover {
 
 /* Social media icons */
 .social-media a {
-    margin: 0 0.4rem;
+    margin-top: 1;
     font-size: 1.2rem;
     color: #fff;
 }
