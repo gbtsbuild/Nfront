@@ -35,7 +35,7 @@ nav .menu {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    background-color: #EDE8D0;
+    background-color: #222222;
     margin: 0;
     justify-content: center;
 }
@@ -77,6 +77,22 @@ main {
     margin: auto;
 }
 
+cart-icon ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+cart-icon ul li {
+    margin: 0 10px;
+}
+
+cart-icon ul li a {
+    text-decoration: none;
+    color: inherit;
+        }
 .cart-icon a {
     color: #4C8055;
     text-decoration: none;
@@ -245,13 +261,6 @@ main {
     margin-top: 10px;
     line-height: 1.2;
     text-align: center;
-}
-.footer a {
-    color: #FFF;
-    text-decoration: none;
-}
-footer a:hover {
-    text-decoration: underline;
 }
 
 /* Social media icons */
