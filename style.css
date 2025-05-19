@@ -37,6 +37,7 @@ nav .menu {
     flex-wrap: wrap;
     background-color: #EDE8D0;
     margin: 0;
+    justify-content: center;
 }
 
 nav .menu > li {
@@ -45,7 +46,7 @@ nav .menu > li {
 nav .menu a {
     display: block;
     padding: 1rem;
-    color: FFCE1B;
+    color: #8FBC8F;
     text-decoration: none;
 }
 nav .menu a:hover {
@@ -77,7 +78,7 @@ main {
 }
 
 .cart-icon a {
-    color: #010101;
+    color: #4C8055;
     text-decoration: none;
 }
 
@@ -93,25 +94,25 @@ main {
     color: #ffd700; /* hover effect */
 }
 
+.cart-icon a, {
+  font-size: 1.0em;
+  color: #4C8055;
+}
+
+.search-icon a {
+    font-size: 1.0em;
+    color: #4C8055;
+    position: absolute;
+    left: 20px
+}
+
 .menu {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     padding: 0;
     margin: 0 10;
-    list-style:none;
-}
-
-.cart-icon a, {
-  font-size: 1.0em;
-  color: #010101;
-}
-
-.search-icon a {
-    font-size: 1.0em;
-    color: #080205;
-    position: absolute;
-    left: 20px
+    list-style: none;
 }
 
 .featured-products {
@@ -134,7 +135,7 @@ main {
     margin: 1rem 0 0.5rem;
 }
 .price {
-    color: #010101;
+    color: #5F9EA0;
     font-weight: bold;
     font-size: 1.2rem;
 }
@@ -203,16 +204,22 @@ main {
     background-color: #145DA0;
 }
 
-.read-more a {
-    background-color:4ecdc4;
+.read-more {
+    margin-top: 12px;
+    display: inline-block;
+    background-color:#4ecdc4;
     color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 4px;
+    transition: background-color 0. 3s;
 }
 
 .read-more:hover {
     background-color: #507B6A;
     }
 /* Footer styles */
-footer {
+.footer {
     background-color: #4C8055;
     color: white;
     padding: 1rem 0;
@@ -222,25 +229,24 @@ footer {
 .footer-links {
     margin-bottom: 1rem;
 }
+
 .footer-links a {
     margin: 0 10px;
-    color: #1063FF;
-
     color: #d45e35;
- main
     text-decoration: none;
 }
+
 .footer-links a:hover {
     text-decoration: underline;
 }
-footer address {
+.footer address {
     font-style: italic;
     font-size: 0.75em;
     margin-top: 10px;
     line-height: 1.2;
     text-align: center;
 }
-footer a {
+.footer a {
     color: #FFF;
     text-decoration: none;
 }
