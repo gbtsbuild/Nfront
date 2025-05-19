@@ -77,12 +77,12 @@ main {
     margin: auto;
 }
 
-.cart-icon ul {
+cart .cart-icon ul {
     list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    align-items: center;
+    align-items: right;
 }
 
 .cart-icon ul li {
@@ -115,7 +115,7 @@ main {
   color: #4C8055;
 }
 
-.search-icon a {
+search .search-icon a {
     font-size: 1.0em;
     color: #4C8055;
     position: absolute;
@@ -247,13 +247,13 @@ footer-links {
     margin-bottom: 1rem;
 }
 
-footer-links a {
+footer-links {
     margin: 0 10px;
-    color: #d45e35;
+    color: #FA9C1C;
     text-decoration: none;
 }
 
-footer-links a:hover {
+footer-links :hover {
     text-decoration: underline;
 }
 footer address {
@@ -272,7 +272,7 @@ social-media a {
 }
 
 social-media a:hover {
-    color: #ffd700;
+    color: #FFF;
 }
 /* Copyright */
 footer p {
