@@ -34,84 +34,68 @@ header h4 {
     font-style: italic;
 }
 
-/* Navigation */
-nav {
-  margin-top: 10px;
-  text-align: center;
+/* Navigation menu */
+nav .menu {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #EDE8D0;
+    justify-content: center;
 }
 
-.menu {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: inline-flex;
-  gap: 25px;
+nav .menu > li {
+    position: relative;
 }
 
-.menu li {
-  position: relative;
+nav .menu a {
+    display: block;
+    padding: 1rem;
+    color: #222;
+    text-decoration: none;
 }
 
-.menu li a {
-  background-color: #EDE8D0;
-  text-decoration: none;
-  color: #222222;
-  font-weight: 600;
-  font-size: 1rem;
-  padding: 8px 12px;
-  transition: background-color 0.3s ease;
+nav .menu a:hover {
+    color: #EDF4F2;
 }
 
-.menu li a:hover,
-.menu li a:focus {
-  background-color: #EDE8D0;
-  border-radius: 4px;
+nav .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #EFFAFD;
+    font-style: italic;
+    z-index: 999;
 }
 
-.submenu {
-  display: none;
-  position: absolute;
-  background-color: #EDF4F2;
-  list-style: none;
-  padding: 10px 0;
-  top: 100%;
-  left: 0;
-  min-width: 160px;
-  z-index: 1000;
-  border-radius: 0 0 6px 6px;
+nav .menu li:hover .submenu {
+    display: block;
 }
 
-.menu li:hover .submenu,
-.menu li:focus-within .submenu {
-  display: block;
+nav .submenu li a {
+    padding: 12px 16px;
 }
 
-.submenu li a {
-  display: block;
-  padding: 8px 20px;
-  font-weight: 400;
+/* Icon adjustments */
+.cart-icon {
+    position: absolute;
+    right: 20px;
 }
 
-.submenu li a:hover {
-  background-color: #EDF4F2;
+.cart-icon a {
+    color: #4C8055;
+    text-decoration: none;
+    font-size: 1em;
 }
 
-/* Cart and Search Icons in Nav */
-.menu .cart-icon,
-.menu .search-icon {
-  font-size: 1.3rem;
-  line-height: 1;
+.cart-icon a:hover {
+    color: #ffd700;
 }
 
-.menu .cart-icon a,
-.menu .search-icon a {
-  color: #4C8055;
-  padding: 8px;
-}
-
-.menu .cart-icon a:hover,
-.menu .search-icon a:hover {
-  color: #ffcc00;
+.search-icon a {
+    font-size: 1em;
+    color: #4C8055;
+    position: absolute;
+    left: 20px;
 }
 
 .container {
@@ -283,7 +267,7 @@ address {
   line-height: 1.3;
   color: #222222;
   address-link: underline;
-  address-link-font-color: #222222
+  link-font-color: #222222
 }
 
 .social-media a {
