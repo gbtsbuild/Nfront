@@ -18,7 +18,7 @@ ul, li {
 header {
     background-color: #4C8055;
     color: white;
-    padding: 1rem 0;
+    padding: 0rem 20px;
     text-align: center;
     width: 100%;
     position: relative;
@@ -281,7 +281,8 @@ address {
   margin-bottom: 15px;
   line-height: 1.3;
   color: #222222;
-  address-link: underline
+  address-link: underline;
+  address-link-color: #222222
 }
 
 .social-media a {
