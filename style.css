@@ -18,7 +18,7 @@ ul, li {
 header {
     background-color: #4C8055;
     color: white;
-    padding: 0rem 20px;
+    padding: 1rem 0px;
     text-align: center;
     width: 100%;
     position: relative;
@@ -53,6 +53,7 @@ nav {
 }
 
 .menu li a {
+  background-color: #EDE8D0;
   text-decoration: none;
   color: #222222;
   font-weight: 600;
@@ -70,7 +71,7 @@ nav {
 .submenu {
   display: none;
   position: absolute;
-  background-color: #003366;
+  background-color: #EDF4F2;
   list-style: none;
   padding: 10px 0;
   top: 100%;
@@ -92,7 +93,7 @@ nav {
 }
 
 .submenu li a:hover {
-  background-color: #00509e;
+  background-color: #EDF4F2;
 }
 
 /* Cart and Search Icons in Nav */
@@ -282,7 +283,7 @@ address {
   line-height: 1.3;
   color: #222222;
   address-link: underline;
-  address-link-color: #222222
+  address-link-font-color: #222222
 }
 
 .social-media a {
