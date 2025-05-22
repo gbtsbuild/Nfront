@@ -45,7 +45,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     padding: 10px 0;
     position: relative;
 }
@@ -61,10 +61,6 @@ nav ul.menu {
     white-space: nowrap;
 }
 
-.menu li {
-        flex: 0 0 auto;
-}
-
 .submenu {
   display: none;
   position: absolute;
@@ -76,11 +72,6 @@ nav ul.menu {
   min-width: 160px;
   z-index: 1000;
   border-radius: 0 0 6px 6px;
-}
-
-.menu li:hover .submenu,
-.menu li:focus-within .submenu {
-  display: block;
 }
 
 .submenu li a {
