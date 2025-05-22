@@ -32,7 +32,7 @@ header h4 {
     font-style: italic;
 }
 
-    }/* Improved Navigation Structure */
+/* Improved Navigation Structure */
 nav {
     margin: 10px 0;
     position: relative;
@@ -93,83 +93,17 @@ nav::after {
 
 /* Collections Menu Fix */
 .menu > li:nth-last-child(2) {
-    margin-right: 60px;
-    
-/* Creates space between Collections and cart */
+    margin-right: 60px; /* Creates space between Collections and cart */
 }
-
-/* Search Icon Positioning */
-.search-icon {
-    position: absolute;
-    left: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.cart-icon {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-/* Section Containers */
-.section-container {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 30px;
-    background-color: #EFFAFD;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-    
-    .search-icon {
-        position: static;
-        transform: none;
-        order: -1;
-        margin-right: auto;
-    }
-    
-    .cart-icon {
-        position: static;
-        transform: none;
-        margin-left: auto;
-    }
 
 /* Restored Product Categories */
-.featured-products {
-  padding: 40px 0;
-  text-align: center;
-}
-
-.featured-products h2 {
-  font-size: 2rem;
-  color: #003366;
-  margin-bottom: 20px;
-}
-
-.product {
-  max-width: 350px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgb(0 0 0 / 0.1);
-  background-color: #f9f9f9;
-}
-
-.product-image {
-  max-width: 100%;
-  border-radius: 6px;
-}
-
-.price {
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #00509e;
-  margin: 10px 0;
+.product-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 30px 0;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .category-card {
@@ -180,80 +114,51 @@ nav::after {
     text-align: center;
 }
 
-
-
-/* Icon adjustments */
-.cart-icon a,
-.search-icon a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.cart-icon a:hover,
-.search-icon a:hover {
-    color: #ffd700;
-}
-
-/* Main content containers */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-/* Blog Excerpts */
-.blog-excerpts {
-    background-color: #f0f4f8;
-    padding: 40px 0;
-}
-
-.blog-excerpt {
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
-    padding: 20px;
-    margin-bottom: 30px;
-}
-
-.blog-excerpt h3 {
-    color: #003366;
-    margin: 0 0 15px;
-    font-size: 1.3rem;
-}
-
-.read-more {
-    color: #000084;
-    text-decoration: none;
-    font-weight: 600;
-    display: inline-block;
-    margin-top: 15px;
-}
-
-/* Footer */
+/* Unified Footer Styles */
 footer {
     background-color: #EDE8D0;
-    color: #222;
-    padding: 30px 0;
+    padding: 40px 15px;
     text-align: center;
 }
 
-.footer-links a {
-    color: #000084;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: color 0.3s ease;
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
 }
 
-.footer-links a:hover {
-    color: #4C8055;
-}
-
-/* Responsive Design */
+/* Responsive Fixes */
 @media (max-width: 768px) {
     .menu {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        padding: 15px 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 15px 40px;
+    }
+    
+    .cart-icon {
+        position: static;
+        transform: none;
+        order: 2;
+        margin-left: auto;
+    }
+    
+    .search-icon {
+        order: -1;
+        margin-right: auto;
+    }
+    
+    .menu > li:nth-last-child(2) {
+        margin-right: 0;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .submenu {
+        position: static !important;
+        width: 100%;
+    }
     }
