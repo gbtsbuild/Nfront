@@ -33,31 +33,111 @@ header h4 {
 }
 
 /* Navigation menu */
+/* Navigation Structure Fixes */
 nav {
     margin: 10px 0;
+    background-color: #EDE8D0;
+    position: relative;
+    padding: 0 15px;
 }
 
 .menu {
     display: flex;
     justify-content: center;
-    background-color: #EDE8D0;
+    align-items: center;
+    gap: 25px;
     padding: 10px 0;
-    gap: 20px;
-}
-
-.menu li {
     position: relative;
 }
 
-.menu a {
-    text-decoration: none;
-    color: #222;
-    padding: 10px 15px;
-    transition: color 0.3s ease;
+/* Mobile-first horizontal layout */
+nav ul.menu {
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.menu a:hover {
-    color: #4C8055;
+.menu li {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+/* Search Icon Positioning */
+.search-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cart-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Section Containers */
+.section-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #EFFAFD;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Navigation Borders */
+nav::before,
+nav::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #EDF4F2;
+    margin: 5px 0;
+}
+
+/* Mobile Responsive Fixes */
+@media (max-width: 768px) {
+    .menu {
+        gap: 15px;
+        padding: 15px 0;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+    
+    .search-icon {
+        position: static;
+        transform: none;
+        order: -1;
+        margin-right: auto;
+    }
+    
+    .cart-icon {
+        position: static;
+        transform: none;
+        margin-left: auto;
+    }
+    
+    .menu li {
+        flex: 0 0 auto;
+    }
+}
+
+/* Restored Product Categories */
+.product-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 30px 0;
+}
+
+.category-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
 }
 
 .submenu {
@@ -81,21 +161,6 @@ nav {
 }
 
 /* Icon adjustments */
-.cart-icon,
-.search-icon {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.cart-icon {
-    right: 20px;
-}
-
-.search-icon {
-    left: 20px;
-}
-
 .cart-icon a,
 .search-icon a {
     color: #fff;
