@@ -35,7 +35,7 @@ header h4 {
 /* Navigation menu */
 /* Navigation Structure Fixes */
 nav {
-    margin: 10px 0;
+    margin: 15px 0;
     background-color: #EDE8D0;
     position: relative;
     padding: 0 15px;
@@ -45,7 +45,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 20px;
     padding: 10px 0;
     position: relative;
 }
@@ -94,7 +94,7 @@ nav::after {
     display: block;
     height: 2px;
     background-color: #EDF4F2;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 /* Mobile Responsive Fixes */
@@ -141,14 +141,11 @@ nav::after {
 }
 
 .submenu {
-    display: none;
+    display: flex;
     position: absolute;
-    top: 100%;
-    left: 0;
     background-color: #EFFAFD;
     font-style: italic;
     z-index: 999;
-    min-width: 160px;
 }
 
 .menu li:hover .submenu {
