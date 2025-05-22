@@ -35,7 +35,7 @@ header h4 {
 /* Navigation */
 nav {
   margin-top: 10px;
-  color: #EDE8D0;
+  color: #222222;
   text-align: center;
 }
 
@@ -107,7 +107,7 @@ nav::after {
 }
 
 .submenu li a:hover {
-  background-color: #00509e;
+  background-color: #EDF4F2;
 }
 
 /* Cart and Search Icons in Nav */
@@ -119,7 +119,7 @@ nav::after {
 
 .menu .cart-icon a,
 .menu .search-icon a {
-  color: white;
+  color: 000080;
   padding: 8px;
 }
 
