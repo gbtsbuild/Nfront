@@ -32,66 +32,71 @@ header h4 {
     font-style: italic;
 }
 
-/* Navigation menu */
-/* Navigation Structure Fixes */
+    }/* Improved Navigation Structure */
 nav {
-    margin: 15px 0;
-    background-color: #EDE8D0;
+    margin: 10px 0;
     position: relative;
-    padding: 0 15px;
+    background-color: #EDE8D0;
+}
+
+nav::before,
+nav::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background-color: #EDF4F2;
+    margin: 5px 0;
 }
 
 .menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 25px;
     padding: 10px 0;
     position: relative;
 }
 
-/* Mobile-first horizontal layout */
-nav ul.menu {
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.menu li {
-    display: inline-block;
-    white-space: nowrap;
-}
-
-.submenu {
-  display: none;
-  position: absolute;
-  background-color: #003366;
-  list-style: none;
-  padding: 10px 0;
-  top: 100%;
-  left: 0;
-  min-width: 160px;
-  z-index: 1000;
-  border-radius: 0 0 6px 6px;
-}
-
-.submenu li a {
-  display: block;
-  padding: 8px 20px;
-  font-weight: 400;
-}
-
-.submenu li a:hover {
-  background-color: #00509e;
-}
-
+/* Fixed Submenu Dropdown */
 .menu li:hover .submenu {
     display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #EFFAFD;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    min-width: 200px;
 }
 
-.submenu li a {
-    padding: 12px 16px;
+.submenu li {
+    padding: 8px 0;
+}
+
+.submenu a {
+    padding: 10px 15px !important;
     display: block;
-    }
+    transition: background-color 0.3s ease;
+}
+
+.submenu a:hover {
+    background-color: #e3f2fd;
+}
+
+/* Fixed Cart Icon Positioning */
+.cart-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: auto;
+}
+
+/* Collections Menu Fix */
+.menu > li:nth-last-child(2) {
+    margin-right: 60px;
+    
+/* Creates space between Collections and cart */
+}
 
 /* Search Icon Positioning */
 .search-icon {
@@ -119,24 +124,6 @@ nav ul.menu {
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Navigation Borders */
-nav::before,
-nav::after {
-    content: '';
-    display: block;
-    height: 2px;
-    background-color: #EDF4F2;
-    margin: 10px 0;
-}
-
-/* Mobile Responsive Fixes */
-@media (max-width: 768px) {
-    .menu {
-        gap: 15px;
-        padding: 15px 0;
-        justify-content: flex-start;
-        padding-left: 40px;
-    }
     
     .search-icon {
         position: static;
@@ -269,11 +256,4 @@ footer {
         align-items: center;
         gap: 10px;
         padding: 15px 0;
-    }
-    
-    .cart-icon,
-    .search-icon {
-        position: static;
-        transform: none;
-        margin: 10px 0;
     }
