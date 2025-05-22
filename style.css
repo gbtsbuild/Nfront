@@ -35,8 +35,9 @@ header h4 {
 /* Navigation */
 nav {
   margin-top: 10px;
-  color: #222222;
+  color: #000080;
   text-align: center;
+  background-color: #EDE8D0;
 }
 
 nav ul.menu {
@@ -49,7 +50,6 @@ nav::after {
     content: '';
     display: inline-flex;
     height: 2px;
-    background-color: #EDE8D0;
     margin: 10px 0;
 }
 
@@ -69,7 +69,7 @@ nav::after {
 
 .menu li a {
   text-decoration: none;
-  color: #222222;
+  color: #4C8055;
   font-weight: 600;
   font-size: 1rem;
   padding: 8px 12px;
@@ -85,7 +85,7 @@ nav::after {
 .submenu {
   display: none;
   position: absolute;
-  background-color: #003366;
+  background-color: #EDE8D0;
   list-style: none;
   padding: 10px 0;
   top: 100%;
