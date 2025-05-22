@@ -329,4 +329,41 @@ address {
     .blog-excerpt {
         max-width: 100%;
     }
-    }
+
+    .page-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.page-container h1,
+.page-container h2,
+.page-container h3 {
+  color: #004080;
+  margin-top: 20px;
+}
+
+.page-container p {
+  margin-bottom: 1em;
+}
+
+.page-container ul,
+.page-container ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1em;
+}
+
+.page-container a {
+  color: #0077cc;
+  text-decoration: underline;
+}
+
+.page-container a:hover {
+  color: #005fa3;
+}
