@@ -31,20 +31,32 @@ header h4 {
     margin: 0.5rem 0 1.5rem;
     font-style: italic;
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 /* Navigation */
 nav {
   margin-top: 10px;
+  color: #EDE8D0;
   text-align: center;
+}
+
+nav ul.menu {
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+nav::before,
+nav::after {
+    content: '';
+    display: inline-flex;
+    height: 2px;
+    background-color: #EDE8D0;
+    margin: 10px 0;
 }
 
 .menu {
   list-style: none;
+  justify-content: center;
+  align-items: center;
   padding: 0;
   margin: 0;
   display: inline-flex;
@@ -57,7 +69,7 @@ nav {
 
 .menu li a {
   text-decoration: none;
-  color: white;
+  color: #222222;
   font-weight: 600;
   font-size: 1rem;
   padding: 8px 12px;
@@ -116,6 +128,12 @@ nav {
   color: #ffcc00;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* Featured Products Section */
 .featured-products {
   padding: 40px 0;
@@ -146,7 +164,7 @@ nav {
 .price {
   font-size: 1.2rem;
   font-weight: bold;
-  color: #00509e;
+  color: #000080;
   margin: 10px 0;
 }
 
@@ -157,7 +175,7 @@ nav {
 
 /* CTA Buttons */
 .cta-button {
-  background-color: #00509e;
+  background-color: #4C8055;
   color: white;
   padding: 10px 22px;
   text-decoration: none;
@@ -234,7 +252,7 @@ nav {
 
 .read-more {
   color: #00509e;
-  text-decoration: none;
+  text-decoration: italic;
   font-weight: 600;
   align-self: flex-start;
   border-bottom: 2px solid transparent;
@@ -248,8 +266,8 @@ nav {
 
 /* Footer */
 footer {
-  background-color: #003366;
-  color: white;
+  background-color: #EDE8D0;
+  color: #222222;
   padding: 30px 0;
   text-align: center;
   font-size: 0.9rem;
@@ -260,7 +278,7 @@ footer {
 }
 
 .footer-links a {
-  color: white;
+  color: 000084;
   margin: 0 10px;
   text-decoration: none;
   font-weight: 500;
@@ -273,14 +291,14 @@ footer {
 }
 
 address {
-  font-style: normal;
+  font-style: italic;
   font-size: 0.85rem;
   margin-bottom: 15px;
   line-height: 1.4;
 }
 
 .social-media a {
-  color: white;
+  color: #4C8055;
   margin: 0 8px;
   font-size: 1.2rem;
   display: inline-block;
@@ -295,7 +313,7 @@ address {
 .copyright {
   margin-top: 15px;
   font-size: 0.85rem;
-  color: #ddd;
+  color: #222222;
 }
 
 /* Responsive */
@@ -311,4 +329,4 @@ address {
   .blog-excerpt {
     max-width: 100%;
   }
-    }
+ }
