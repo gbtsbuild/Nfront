@@ -142,7 +142,7 @@ nav::after {
 
 .featured-products h2 {
     font-size: 2rem;
-    color: #04A4AF;
+    color: #1DA27E;
     margin-bottom: 20px;
 }
 
@@ -175,7 +175,7 @@ nav::after {
 
 /* CTA Buttons */
 .cta-button {
-    background-color: #04A4AF;
+    background-color: #18656A;
     color: white;
     padding: 10px 22px;
     text-decoration: none;
