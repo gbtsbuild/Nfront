@@ -331,11 +331,11 @@ address {
     }
 
     .page-container {
-  max-width: 800px;
-  margin: 50px auto;
+  max-width: 900px;
+  margin: 40px auto;
   padding: 20px;
   background-color: #fff;
-  border-radius: 9px;
+  border-radius: 8px;
   line-height: 1.6;
   font-size: 1rem;
   color: #333;
@@ -367,3 +367,77 @@ address {
 .page-container a:hover {
   color: #005fa3;
 }
+
+/* PRODUCTS PAGE STYLES */
+.products-page {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.products-page h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #222;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.product-card p {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.product-card .price {
+  color: #cc0000;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.product-card .cta-button {
+  background-color: #005f73;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.product-card .cta-button:hover {
+  background-color: #0a9396;
+    }
