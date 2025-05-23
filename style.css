@@ -142,7 +142,7 @@ nav::after {
 
 .featured-products h2 {
     font-size: 2rem;
-    color: #003366;
+    color: #04A4AF;
     margin-bottom: 20px;
 }
 
@@ -175,7 +175,7 @@ nav::after {
 
 /* CTA Buttons */
 .cta-button {
-    background-color: #18656A;
+    background-color: #04A4AF;
     color: white;
     padding: 10px 22px;
     text-decoration: none;
@@ -368,7 +368,13 @@ address {
   color: #005fa3;
 }
 /* products page */
-
+    
+.products-header {
+ padding: 1rem 0;
+ text-align: center;
+ position: relative;
+}
+    
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
