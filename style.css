@@ -152,8 +152,8 @@ nav ul li ul.submenu li a:hover {
 }
 
 .featured-products h3 {
-    font-size: 2rem;
-    color: #5959AB;
+    font-size: 1.5rem;
+    color: #355E3B;
     margin-bottom: 20px;
 }
 
@@ -353,8 +353,7 @@ address {
 
 .page-container h1, 
 .page-container h2, 
-.page-container h3, 
-.page-container p {
+.page-container h3, {
   color: #004080
   margin-bottom: 1rem; /* Space between elements */
 
@@ -430,7 +429,7 @@ address {
 
 .product-card .price {
   font-weight: bold;
-  color: #008c44;
+  color: #0000FF;
   margin-bottom: 0.5rem;
 }
 
