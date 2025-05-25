@@ -2,53 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Contact Us - GBTS</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - GBTS Builders Solution Ltd</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-  <header>
-    <h4>GBTS Builders Solution Ltd</h4>
-    <p class="tagline">Your One-Stop-Store for Building Materials and Tools</p>
-    
-<nav>
-  <ul class="menu">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li>
-      <a href="#">Collections</a>
-      <ul class="submenu">
-        <li><a href="roofings.html">Roofings</a></li>
-        <li><a href="hand-tools.html">Hand Tools</a></li>
-        <li><a href="locks-knobs.html">Locks & Knobs</a></li>
-        <li><a href="security-cameras.html">Security Cameras</a></li>
-        <li><a href="appliances.html">Appliances</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
 
-  </header>
-  <main>
-    <h2>Contact Us</h2>
-    <p>Content for contact-us.html goes here...</p>
-  </main>
-  <footer>
-    
-<div class="footer-links">
-  <a href="about-us.html">About Us</a>
-  <a href="contact-us.html">Contact Us</a>
-  <a href="return-policy.html">Return Policy</a>
-  <a href="faq.html">FAQ</a>
-  <a href="terms.html">Terms of Service</a>
-  <a href="blog-posts.html">Blog</a>
-</div>
+<header>
+  <h4>GBTS Builders Solution Ltd</h4>
+  <p class="tagline">Your One-Stop-Store for Building Materials</p>
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="#">Collections</a>
+        <ul class="submenu">
+          <li><a href="roofings.html">Roofings</a></li>
+          <li><a href="hand-tools.html">Hand Tools</a></li>
+          <li><a href="locks-knobs.html">Locks & Knobs</a></li>
+          <li><a href="security-cameras.html">Security Cameras</a></li>
+          <li><a href="appliances.html">Appliances</a></li>
+        </ul>
+      </li>
+      <li class="cart-icon"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+    </ul>
+  </nav>
+</header>
 
-    <address>
-      Shop 1 Jubilee Market, Ikare Akoko 342211, Ondo State, Nigeria.<br/>
-      Email: <a href="mailto:ask@gbtsbuildingmaterials.com">ask@gbtsbuildingmaterials.com</a><br/>
-      Phone: <a href="tel:+2347017742003">+2347017742003</a>
-    </address>
-    <p class="copyright">© 2025 GBTS Builders Solution Ltd.</p>
-  </footer>
+<main class="page-container">
+  <h1>Contact Us</h1>
+  <p>If you have any questions, inquiries, or feedback, feel free to reach out to us using the form below or through our contact details.</p>
+
+  <section class="contact-form">
+    <form action="mailto:ask@gbtsbuildingmaterials.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section class="contact-info">
+    <h2>Our Contact Information</h2>
+    <p><strong>Address:</strong> Shop 1, Jubilee market, Ikare Akoko 342211, Ondo State, Nigeria</p>
+    <p><strong>Email:</strong> <a href="mailto:ask@gbtsbuildingmaterials.com">ask@gbtsbuildingmaterials.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+2347017742003">+2347017742003</a></p>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-links">
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="return-policy.html">Return Policy</a>
+    <a href="faq.html">FAQ</a>
+    <a href="terms.html">Terms</a>
+    <a href="blog.html">Blog</a>
+  </div>
+  <address style="font-size: 0.85em;">
+    Shop 1 Jubilee Market, Ikare Akoko 342211, Ondo State, Nigeria.<br/>
+    Email: <a href="mailto:ask@gbtsbuildingmaterials.com">ask@gbtsbuildingmaterials.com</a><br/>
+    Phone: <a href="tel:+2347017742003">+2347017742003</a>
+  </address>
+  <div class="social-media">
+    <a href="https://facebook.com/profile.php?id=61575683557550&mibextid=JRoKGi" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://x.com/gbtsstores" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com/gbtsstores" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://pinterest.com/gbtsstores" target="_blank"><i class="fab fa-pinterest"></i></a>
+    <a href="https://wa.me/7017742003" target="_blank"><i class="fab fa-whatsapp"></i></a>
+  </div>
+  <p class="copyright">© 2025 GBTS Builders Solution Ltd.</p>
+</footer>
+
 </body>
 </html>
