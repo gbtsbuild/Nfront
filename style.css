@@ -82,43 +82,45 @@ nav::after {
     border-radius: 4px;
 }
 
-}
 nav ul li {
   position: relative;
 }
 
 nav ul li ul.submenu {
-  display: none; /* Hide by default */
+  display: none;
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 50%; /* Center under parent item */
+  transform: translateX(-50%); /* True centering */
   background-color: #EDE8D0;
-  min-width: 180px;
-  max-width: 220px;
-  padding: 0.5rem 0;
-  border-radius: 5px;
+  min-width: 140px; /* Reduced from 180px */
+  max-width: 160px; /* Reduced from 220px */
+  padding: 0.4rem 0;
+  border-radius: 4px;
   z-index: 1000;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.15);
 }
 
 nav ul li:hover ul.submenu {
-  display: block; /* Show submenu on hover */
+  display: block;
 }
 
 nav ul li ul.submenu li {
   width: 100%;
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 nav ul li ul.submenu li a {
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 0.8rem; /* Reduced padding */
   color: black;
   display: block;
-  text-decoration: none;
+  text-decoration: italic;
+  font-size: 0.9em; /* Slightly smaller text */
 }
 
 nav ul li ul.submenu li a:hover {
   background-color: #EDF4F2;
     }
-
 /* Cart and Search Icons in Nav */
 .menu .cart-icon,
 .menu .search-icon {
