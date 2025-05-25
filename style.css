@@ -142,7 +142,7 @@ nav::after {
 
 .featured-products h2 {
     font-size: 2rem;
-    color: #1DA27E;
+    color: #D3AF37;
     margin-bottom: 20px;
 }
 
@@ -330,34 +330,23 @@ address {
         max-width: 100%;
     }
 
-    .page-container {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
+    /* Common Page Container Styles */
+.page-container {
+  max-width: 1200px; /* Adjust width as needed */
+  margin: 0 auto; /* Center horizontally */
+  padding: 1rem; /* Add internal spacing */
   background-color: #fff;
-  border-radius: 8px;
-  line-height: 1.6;
-  font-size: 1rem;
   color: #333;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  box-sizing: border-box; /* Include padding in width */
 }
 
-.page-container h1,
-.page-container h2,
-.page-container h3 {
-  color: #004080;
-  margin-top: 20px;
-}
-
+.page-container h1, 
+.page-container h2, 
+.page-container h3, 
 .page-container p {
-  margin-bottom: 1em;
-}
+  color: #004080
+  margin-bottom: 1rem; /* Space between elements */
 
-.page-container ul,
-.page-container ol {
-  padding-left: 1.5rem;
-  margin-bottom: 1em;
-}
 
 .page-container a {
   color: #0077cc;
