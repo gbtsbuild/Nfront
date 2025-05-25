@@ -69,7 +69,7 @@ nav::after {
 
 .menu li a {
     text-decoration: none;
-    color: #000080;
+    color: #0000FF;
     font-weight: 600;
     font-size: 0.8rem;
     padding: 8px 12px;
@@ -78,7 +78,7 @@ nav::after {
 
 .menu li a:hover,
 .menu li a:focus {
-    background-color: #00509e;
+    background-color: #EDF4F2;
     border-radius: 4px;
 }
 
@@ -87,7 +87,7 @@ nav::after {
     position: absolute;
     background-color: #EDE8D0;
     list-style: none;
-    padding: 10px 0;
+    padding: 15px 0;
     top: 100%;
     left: 0;
     min-width: 160px;
@@ -119,13 +119,13 @@ nav::after {
 
 .menu .cart-icon a,
 .menu .search-icon a {
-    color: #000080;
+    color: #0000FF;
     padding: 8px;
 }
 
 .menu .cart-icon a:hover,
 .menu .search-icon a:hover {
-    color: #ffcc00;
+    color: #0000FF;
 }
 
 .container {
@@ -140,9 +140,9 @@ nav::after {
     text-align: center;
 }
 
-.featured-products h2 {
+.featured-products h3 {
     font-size: 2rem;
-    color: #D3AF37;
+    color: #0000FF;
     margin-bottom: 20px;
 }
 
