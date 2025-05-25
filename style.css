@@ -82,32 +82,32 @@ nav::after {
     border-radius: 4px;
 }
 
-.submenu {
-    display: none;
-    position: absolute;
-    background-color: #EDE8D0;
-    list-style: none;
-    padding: 15px 0;
-    top: 100%;
-    left: 0;
-    min-width: 160px;
-    z-index: 1000;
-    border-radius: 0 0 6px 6px;
+}
+nav ul li ul.submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #EDE8D0; /* Match your site's color */
+  min-width: 180px; /* Reduce width */
+  max-width: 220px; /* Optional: limit the width */
+  padding: 0.5rem 0;
+  border-radius: 5px;
+  z-index: 1000;
 }
 
-.menu li:hover .submenu,
-.menu li:focus-within .submenu {
-    display: block;
+nav ul li ul.submenu li {
+  width: 100%; /* Make each list item occupy full width */
 }
 
-.submenu li a {
-    display: block;
-    padding: 8px 20px;
-    font-weight: 400;
+nav ul li ul.submenu li a {
+  padding: 0.5rem 1rem;
+  color: white;
+  display: block;
+  text-decoration: none;
 }
 
-.submenu li a:hover {
-    background-color: #EDF4F2;
+nav ul li ul.submenu li a:hover {
+  background-color: #EDF4F2; /* Highlight on hover */
 }
 
 /* Cart and Search Icons in Nav */
@@ -164,7 +164,7 @@ nav::after {
 .price {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #000080;
+    color: #0000FF;
     margin: 10px 0;
 }
 
@@ -187,7 +187,7 @@ nav::after {
 
 .cta-button:hover,
 .cta-button:focus {
-    background-color: #003366;
+    background-color: #4ecdc4;
 }
 
 /* Section Containers */
@@ -197,7 +197,7 @@ nav::after {
     text-align: center;
 }
 
-.section-container h2 {
+.section-container h3 {
     color: #003366;
     margin-bottom: 15px;
     font-size: 1.8rem;
@@ -251,7 +251,7 @@ nav::after {
 }
 
 .read-more {
-    color: #00509e;
+    color: #0000FF;
     text-decoration: italic;
     font-weight: 600;
     align-self: flex-start;
