@@ -1,137 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Products | GBTS Builders Solution Ltd</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <title>Products - GBTS Builders Solution Ltd</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h4>GBTS Builders Solution Ltd</h4>
-      <nav>
-        <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="nav-icons">
-          <a href="#"><i class="fas fa-search"></i></a>
-          <a href="#"><i class="fas fa-shopping-cart"></i></a>
-        </div>
-      </nav>
-    </header>
+  <!-- Header (copied from homepage) -->
+  <header>
+    <h4>GBTS Builders Solution Ltd</h4>
+    <p class="tagline">Your One-Stop-Store for Building Materials</p>
+    <nav>
+      <ul class="menu">
+        <li class="search-icon"><a href="#"><i class="fas fa-search"></i></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="#">Collections</a>
+          <ul class="submenu">
+            <li><a href="roofings.html">Roofings</a></li>
+            <li><a href="hand-tools.html">Hand Tools</a></li>
+            <li><a href="locks-knobs.html">Locks & Knobs</a></li>
+            <li><a href="security-cameras.html">Security Cameras</a></li>
+            <li><a href="appliances.html">Appliances</a></li>
+          </ul>
+        </li>
+        <li class="cart-icon"><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-      <h2>All Products</h2>
+  <main>
+    <section class="products-container">
+      <h2>Our Products</h2>
 
-      <div class="product-controls">
-        <input type="text" id="searchInput" placeholder="Search products..." />
+      <!-- Filter and Search -->
+      <div class="filters">
+        <input type="text" id="searchInput" placeholder="Search products...">
         <select id="categoryFilter">
           <option value="all">All Categories</option>
           <option value="roofings">Roofings</option>
-          <option value="tools">Hand Tools</option>
-          <option value="locks">Locks & Knobs</option>
-          <option value="cameras">Security Cameras</option>
+          <option value="hand-tools">Hand Tools</option>
+          <option value="locks-knobs">Locks & Knobs</option>
+          <option value="security-cameras">Security Cameras</option>
           <option value="appliances">Appliances</option>
         </select>
       </div>
 
-      <div class="product-grid" id="productGrid">
+      <!-- Product Grid -->
+      <div class="products-grid" id="productsGrid">
         <div class="product-card" data-category="roofings">
-          <img src="images/roofings.jpg" alt="Roofing Sheet" />
-          <h3>Aluminum Roofing Sheet</h3>
+          <img src="https://res.cloudinary.com/dcxga7ojb/image/upload/v1747685814/roof5.jpg" alt="Roofing Material">
+          <h3>Premium Roofing Sheet</h3>
+          <p class="price">₦50,000</p>
+          <p class="description">Durable and weather-resistant.</p>
+        </div>
+
+        <div class="product-card" data-category="hand-tools">
+          <img src="https://res.cloudinary.com/dcxga7ojb/image/upload/v1747730406/istockphoto-596042932-612x612_1_ryfysn.jpg" alt="Hand Tool">
+          <h3>Professional Hammer</h3>
+          <p class="price">₦8,500</p>
+          <p class="description">Ergonomic handle for comfortable grip.</p>
+        </div>
+
+        <div class="product-card" data-category="locks-knobs">
+          <img src="https://res.cloudinary.com/dcxga7ojb/image/upload/v1747678479/knobs_2.jpg" alt="Lock & Knob">
+          <h3>Secure Door Lock</h3>
           <p class="price">₦12,000</p>
-          <a class="cta-button" href="#">Shop Now</a>
+          <p class="description">Stylish and highly secure.</p>
         </div>
 
-        <div class="product-card" data-category="tools">
-          <img src="images/hand-tools.jpg" alt="Hand Tools" />
-          <h3>Hammer Set</h3>
-          <p class="price">₦3,500</p>
-          <a class="cta-button" href="#">Buy Now</a>
-        </div>
-
-        <div class="product-card" data-category="locks">
-          <img src="images/locks.jpg" alt="Locks & Knobs" />
-          <h3>Smart Door Lock</h3>
-          <p class="price">₦45,000</p>
-          <a class="cta-button" href="#">Secure Now</a>
-        </div>
-
-        <div class="product-card" data-category="cameras">
-          <img src="images/security-cameras.jpg" alt="Security Camera" />
-          <h3>HD Wireless Camera</h3>
-          <p class="price">₦22,000</p>
-          <a class="cta-button" href="#">Get One</a>
+        <div class="product-card" data-category="security-cameras">
+          <img src="https://res.cloudinary.com/dcxga7ojb/image/upload/v1747726295/cam.jpg" alt="Security Camera">
+          <h3>HD Security Camera</h3>
+          <p class="price">₦35,000</p>
+          <p class="description">High-definition surveillance with night vision.</p>
         </div>
 
         <div class="product-card" data-category="appliances">
-          <img src="images/appliances.jpg" alt="Appliance" />
-          <h3>Electric Kettle</h3>
-          <p class="price">₦9,000</p>
-          <a class="cta-button" href="#">Order Now</a>
+          <img src="https://res.cloudinary.com/dcxga7ojb/image/upload/v1747726416/appliances.jpg" alt="Appliance">
+          <h3>Energy Efficient Refrigerator</h3>
+          <p class="price">₦250,000</p>
+          <p class="description">Eco-friendly and spacious.</p>
         </div>
-
-        <!-- Add more product cards as needed -->
       </div>
-    </main>
+    </section>
+  </main>
 
+  <!-- Footer (copied from homepage) -->
+  <div class="container">
     <footer>
-      <p>&copy; 2025 GBTS Builders Solution Ltd.</p>
+      <div class="footer-links">
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="return-policy.html">Return Policy</a>
+        <a href="faq.html">FAQ</a>
+        <a href="terms.html">Terms of Service</a>
+        <a href="blog.html">Blog</a>
+      </div>
+      <address style="font-size: 0.85em;">
+        Shop 1 Jubilee Market, Ikare Akoko 342211, Ondo State, Nigeria.<br/>
+        Email: <a href="mailto:ask@gbtsbuildingmaterials.com">ask@gbtsbuildingmaterials.com</a><br/>
+        Phone: <a href="tel:+2347017742003">+2347017742003</a>
+      </address>
+      <div class="social-media">
+        <a href="https://facebook.com/profile.php?id=61575683557550&mibextid=JRoKGi" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://x.com/gbtsstores" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/gbtsstores" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://pinterest.com/gbtsstores" target="_blank"><i class="fab fa-pinterest"></i></a>
+        <a href="https://wa.me/7017742003" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <p class="copyright">© 2025 GBTS Builders Solution Ltd.</p>
     </footer>
   </div>
 
+  <!-- JS for Search & Filter -->
   <script>
     const searchInput = document.getElementById('searchInput');
     const categoryFilter = document.getElementById('categoryFilter');
-    const products = document.querySelectorAll('.product-card');
+    const productsGrid = document.getElementById('productsGrid');
+    const productCards = productsGrid.getElementsByClassName('product-card');
 
     function filterProducts() {
-      const searchValue = searchInput.value.toLowerCase();
+      const searchTerm = searchInput.value.toLowerCase();
       const selectedCategory = categoryFilter.value;
 
-      products.forEach(card => {
+      Array.from(productCards).forEach(card => {
         const title = card.querySelector('h3').textContent.toLowerCase();
-        const matchesSearch = title.includes(searchValue);
-        const matchesCategory = selectedCategory === 'all' || card.dataset.category === selectedCategory;
-        card.style.display = matchesSearch && matchesCategory ? 'block' : 'none';
+        const category = card.getAttribute('data-category');
+        const matchesSearch = title.includes(searchTerm);
+        const matchesCategory = selectedCategory === 'all' || selectedCategory === category;
+        card.style.display = (matchesSearch && matchesCategory) ? 'block' : 'none';
       });
     }
 
     searchInput.addEventListener('input', filterProducts);
     categoryFilter.addEventListener('change', filterProducts);
   </script>
-  <!-- JavaScript Filter Logic -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const searchInput = document.getElementById("searchInput");
-      const categoryFilter = document.getElementById("categoryFilter");
-      const productCards = document.querySelectorAll(".product-card");
-
-      function filterProducts() {
-        const searchQuery = searchInput.value.toLowerCase();
-        const selectedCategory = categoryFilter.value;
-
-        productCards.forEach((card) => {
-          const title = card.querySelector("h3").textContent.toLowerCase();
-          const category = card.getAttribute("data-category");
-
-          const matchesSearch = title.includes(searchQuery);
-          const matchesCategory = selectedCategory === "all" || category === selectedCategory;
-
-          card.style.display = (matchesSearch && matchesCategory) ? "block" : "none";
-        });
-      }
-
-      searchInput.addEventListener("input", filterProducts);
-      categoryFilter.addEventListener("change", filterProducts);
-    });
-  </script>
-</body>
-</html>
 </body>
 </html>
