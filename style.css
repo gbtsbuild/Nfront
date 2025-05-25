@@ -42,7 +42,7 @@ nav {
 
 nav ul.menu {
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Prevent items from wrapping */
 }
 
 nav::before,
@@ -60,7 +60,7 @@ nav::after {
     padding: 0;
     margin: 0;
     display: inline-flex;
-    gap: 25px;
+    gap: 15px; /* Reduced gap for better spacing */
 }
 
 .menu li {
