@@ -153,7 +153,7 @@ nav ul li ul.submenu li a:hover {
 
 .featured-products h3 {
     font-size: 1.5rem;
-    color: #355E3B;
+    color: #000084;
     margin-bottom: 20px;
 }
 
@@ -249,7 +249,7 @@ nav ul li ul.submenu li a:hover {
 }
 
 .blog-excerpt h3 {
-    color: #5959AB;
+    color: #000084;
     margin-bottom: 10px;
     font-size: 1.3rem;
 }
@@ -363,8 +363,6 @@ address {
   text-decoration: underline;
 }
 /* Product Page Header - Matches Homepage */
-/* Products Page Styles */
-
 .products-header {
   display: flex;
   justify-content: space-between;
@@ -373,7 +371,7 @@ address {
   margin: 2rem 0;
 }
 
-.products-header h2 {
+.products-header h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
   flex: 1 1 100%;
