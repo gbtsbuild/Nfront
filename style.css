@@ -83,32 +83,41 @@ nav::after {
 }
 
 }
+nav ul li {
+  position: relative;
+}
+
 nav ul li ul.submenu {
+  display: none; /* Hide by default */
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #EDE8D0; /* Match your site's color */
-  min-width: 180px; /* Reduce width */
-  max-width: 220px; /* Optional: limit the width */
+  background-color: #EDE8D0;
+  min-width: 180px;
+  max-width: 220px;
   padding: 0.5rem 0;
   border-radius: 5px;
   z-index: 1000;
 }
 
+nav ul li:hover ul.submenu {
+  display: block; /* Show submenu on hover */
+}
+
 nav ul li ul.submenu li {
-  width: 100%; /* Make each list item occupy full width */
+  width: 100%;
 }
 
 nav ul li ul.submenu li a {
   padding: 0.5rem 1rem;
-  color: white;
+  color: black;
   display: block;
   text-decoration: none;
 }
 
 nav ul li ul.submenu li a:hover {
-  background-color: #EDF4F2; /* Highlight on hover */
-}
+  background-color: #EDF4F2;
+    }
 
 /* Cart and Search Icons in Nav */
 .menu .cart-icon,
@@ -142,7 +151,7 @@ nav ul li ul.submenu li a:hover {
 
 .featured-products h3 {
     font-size: 2rem;
-    color: #0000FF;
+    color: #5959AB;
     margin-bottom: 20px;
 }
 
@@ -175,7 +184,7 @@ nav ul li ul.submenu li a:hover {
 
 /* CTA Buttons */
 .cta-button {
-    background-color: #18656A;
+    background-color: #3299CC;
     color: white;
     padding: 10px 22px;
     text-decoration: none;
@@ -198,7 +207,7 @@ nav ul li ul.submenu li a:hover {
 }
 
 .section-container h3 {
-    color: #003366;
+    color: #5959AB;
     margin-bottom: 15px;
     font-size: 1.8rem;
 }
@@ -238,7 +247,7 @@ nav ul li ul.submenu li a:hover {
 }
 
 .blog-excerpt h3 {
-    color: #003366;
+    color: #5959AB;
     margin-bottom: 10px;
     font-size: 1.3rem;
 }
