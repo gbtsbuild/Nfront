@@ -1,0 +1,43 @@
+.hero-section {
+  min-height: 90vh;
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1515165562835-cd4b5f1c2b6e?auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45); /* Adjust overlay darkness as needed */
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  text-align: center;
+  max-width: 700px;
+  padding: 2rem;
+}
+
+.cta-button {
+  background: #5bb85b;
+  color: #fff;
+  border: none;
+  padding: 1em 2em;
+  margin-top: 2em;
+  font-size: 1.2em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.cta-button:hover {
+  background: #489a48;
