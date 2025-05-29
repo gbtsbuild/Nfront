@@ -1,20 +1,17 @@
-{  "name": "react",
+{
+  "name": "react",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-  "react": "^19.1.0",
-  "react-dom": "^19.1.0",
-  "react-router-dom": "^6.23.1"  
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "latest"
   },
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test --
-env=jsdom",
-  "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-  "react-scripts": "latest"  
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   }
-}
 }
