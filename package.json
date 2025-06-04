@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "A modern React e-commerce store.",
-  "sripts": {
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
