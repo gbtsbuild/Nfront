@@ -1,0 +1,76 @@
+/* index.css – Global styles for GBTS site */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Links */
+a {
+  color: #00695c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004d40;
+  text-decoration: underline;
+}
+
+/* Buttons */
+button, .button, .cta-button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #00695c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+button:hover, .cta-button:hover {
+  background-color: #004d40;
+}
+
+/* Inputs & Forms */
+input, select, textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #00695c;
+  box-shadow: 0 0 0 2px rgba(0, 105, 92, 0.2);
+}
+
+/* Layout helpers */
+.section-container {
+  padding: 2rem 1rem;
+  text-align: center;
+  background: #fff;
+  margin-bottom: 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 1rem;
+}
