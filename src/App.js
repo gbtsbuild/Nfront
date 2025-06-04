@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import ProductsPage from "./pages/ProductsPage";
 import AboutPage from "./pages/AboutUsPage";
 import ContactPage from "./pages/ContactUsPage";
+import './HomePage.css';
 
 // ...inside App component, before <Routes>:
 <nav>

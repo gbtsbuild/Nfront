@@ -1,137 +1,169 @@
-.hero-section {
-    min-height: 90vh;
-      width: 100%;
-        background-image: url("https://images.unsplash.com/photo-1515165562835-cd4b5f1c2b6e?auto=format&fit=crop&w=1500&q=80");
-          background-size: cover;
-            background-position: center;
-              position: relative;
-                display: flex;
-                  align-items: center;
-                    justify-content: center;
-                    }
+/* HomePage.css */
 
-                    .hero-section::before {
-                      content: "";
-                        position: absolute;
-                          inset: 0;
-                            background: rgba(0, 0, 0, 0.45); /* Adjust overlay darkness as needed */
-                              z-index: 1;
-                              }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
 
-                              .hero-content {
-                                position: relative;
-                                  z-index: 2;
-                                    color: #fff;
-                                      text-align: center;
-                                      max-width: 700px;
-                                      padding: 2rem;
-                                      }
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #004d40, #00695c);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
 
-                                      .cta-button {
-                                        background: #5bb85b;
-                                          color: #fff;
-                                            border: none;
-                                              padding: 1em 2em;
-                                                margin-top: 2em;
-                                                  font-size: 1.2em;
-                                                    border-radius: 4px;
-                                                      cursor: pointer;
-                                                        transition: background 0.2s;
-                                                        }
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
 
-                                                        .cta-button:hover {
-                                                          background: #489a48;
-                                                          }/* General Page Layout */
-                                                          body {
-                                                            margin: 0;
-                                                              font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                                                                background-color: #f9f9f9;
-                                                                  color: #333;
-                                                                  }
+.hero p {
+  font-size: 1.25rem;
+  margin: 0;
+}
 
-                                                                  /* Hero Section */
-                                                                  .hero {
-                                                                    background: url('/images/hero-bg.jpg') center/cover no-repeat;
-                                                                      padding: 4rem 2rem;
-                                                                        text-align: center;
-                                                                          color: white;
-                                                                            background-color: #2a2a2a; /* fallback color */
-                                                                            }
+/* Featured Product Section */
+.featured-products {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: #ffffff;
+}
 
-                                                                            .hero h1 {
-                                                                              font-size: 2.8rem;
-                                                                                margin-bottom: 0.5rem;
-                                                                                }
+.featured-products h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
 
-                                                                                .hero p {
-                                                                                  font-size: 1.2rem;
-                                                                                    max-width: 600px;
-                                                                                      margin: 0 auto;
-                                                                                      }
+.featured-products .product {
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #fafafa;
+}
 
-                                                                                      /* Container for Page Content */
-                                                                                      .page-container {
-                                                                                        padding: 2rem;
-                                                                                        }
+.featured-products img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
 
-                                                                                        /* Filter Bar */
-                                                                                        .products-header {
-                                                                                          margin-bottom: 1.5rem;
-                                                                                            display: flex;
-                                                                                              flex-wrap: wrap;
-                                                                                                justify-content: space-between;
-                                                                                                  gap: 1rem;
-                                                                                                  }
+.featured-products .price {
+  color: #00695c;
+  font-weight: bold;
+}
 
-                                                                                                  .filter-bar {
-                                                                                                    display: flex;
-                                                                                                      gap: 1rem;
-                                                                                                        flex-wrap: wrap;
-                                                                                                        }
+/* CTA Button */
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #00695c;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
 
-                                                                                                        .filter-bar input,
-                                                                                                        .filter-bar select {
-                                                                                                          padding: 0.5rem 1rem;
-                                                                                                            font-size: 1rem;
-                                                                                                              border-radius: 4px;
-                                                                                                                border: 1px solid #ccc;
-                                                                                                                }
+.cta-button:hover {
+  background-color: #004d40;
+}
 
-                                                                                                                /* Product Grid */
-                                                                                                                .products-grid {
-                                                                                                                  display: grid;
-                                                                                                                    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-                                                                                                                      gap: 2rem;
-                                                                                                                      }
+/* Section Container */
+.section-container {
+  padding: 2rem 1rem;
+  text-align: center;
+  background: #fff;
+  margin-bottom: 1rem;
+}
 
-                                                                                                                      .product-card {
-                                                                                                                        background-color: white;
-                                                                                                                          border-radius: 8px;
-                                                                                                                            overflow: hidden;
-                                                                                                                              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-                                                                                                                                transition: transform 0.2s ease-in-out;
-                                                                                                                                }
+.section-container h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
 
-                                                                                                                                .product-card:hover {
-                                                                                                                                  transform: translateY(-5px);
-                                                                                                                                  }
+.section-container img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
 
-                                                                                                                                  .product-card img {
-                                                                                                                                    width: 100%;
-                                                                                                                                      height: 180px;
-                                                                                                                                        object-fit: cover;
-                                                                                                                                        }
+/* Blog Excerpts */
+.blog-excerpts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  background: #f1f1f1;
+}
 
-                                                                                                                                        .product-card h3 {
-                                                                                                                                          font-size: 1.2rem;
-                                                                                                                                            margin: 0.75rem;
-                                                                                                                                            }
+.blog-excerpt {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: left;
+}
 
-                                                                                                                                            .product-card .price {
-                                                                                                                                              color: #d35400;
-                                                                                                                                                font-weight: bold;
-                                                                                                                                                  margin: 0 0.75rem;
-                                                                                                                                                  }
+.blog-excerpt h3 {
+  color: #00695c;
+  margin-bottom: 0.5rem;
+}
 
-                                                                                                                                                  .product
+.blog-excerpt p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #004d40;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #263238;
+  color: #f0f0f0;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.footer-links {
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  margin: 0 0.5rem;
+  color: #a7ffeb;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+footer address, footer .social-media {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.social-media a {
+  color: white;
+  margin: 0 0.3rem;
+  font-size: 1.2rem;
+}
+
+.social-media a:hover {
+  color: #a7ffeb;
+}
+
+footer p {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: #ccc;
 }
