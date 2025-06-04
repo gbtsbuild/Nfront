@@ -6,11 +6,8 @@ function HomePage() {
     <div className="hero-section">
       <div className="hero-content">
         <h1>GBTS Builders Solution Ltd</h1>
-        <p>
-          Access thousands of top products and connect with suppliers instantly.
-          Grow your business with seamless dropshipping.
-        </p>
-        <button className="cta-button">Get Started Free</button>
+        <p>Your One-Stop Store for Building Materials</p>
+        <button className="cta-button">Browse Our Products</button>
       </div>
     </div>
   );
