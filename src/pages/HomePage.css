@@ -9,10 +9,25 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(to right, #004d40, #00695c);
+  background-image: url('https://res.cloudinary.com/dcxga7ojb/image/upload/v1748453709/roofnw1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  aligned-items: center;
+  padding: 2rem;
   color: white;
   text-align: center;
-  padding: 3rem 1rem;
+  position: relative;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
 }
 
 .hero h1 {
