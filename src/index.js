@@ -1,13 +1,11 @@
-import React, { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css'; // Optional: base styles like body/background/font
+import HomePage from './HomePage'; // Make sure this matches your main component
 
-import App from './App';
-
-const rootElement = document.getElementById('root');
-const root = createRoot(rootElement);
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>
+  <React.StrictMode>
+    <HomePage />
+  </React.StrictMode>
 );
