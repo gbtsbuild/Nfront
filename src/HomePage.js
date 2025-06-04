@@ -57,8 +57,8 @@ const Home = () => {
           Phone: <a href="tel:+2347017742003">+2347017742003</a>
         </address>
         <div className="social-media">
-          <a href="https://facebook.com/profile.php?id=61575683557550&mibextid=JRoKGi" target="_blank"><i className="fab fa-facebook-f"></i></a>
-          <a href="https://x.com/gbtsstores" target="_blank"><i className="fab fa-twitter"></i></a>
+          <a href="https://facebook.com/profile.php?id=61575683557550&mibextid=JRoKGi" target="_blank">rel="noopener noreferrer"<i className="fab fa-facebook-f"></i></a>
+          <a href="https://x.com/gbtsstores" target="_blank">rel="noreferrer"<i className="fab fa-twitter"></i></a>
           <a href="https://instagram.com/gbtsstores" target="_blank"> rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
           <a href="https://pinterest.com/gbtsstores" target="_blank"> rel="noopener noreferrer"><i className="fab fa-pinterest"></i></a>
           <a href="https://wa.me/7017742003" target="_blank"> rel="noopener noreferrer"><i className="fab fa-whatsapp"></i></a>
