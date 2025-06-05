@@ -8,7 +8,7 @@ body {
 
         /* Hero Section - Reduced zoom */
         .hero {
-          background-image: url('https://res.cloudinary.com/dcxga7ojb/image/upload/v1748453709/roofnw1.jpg');
+          background-image: url('https://res.cloudinary.com/dcxga7ojb/image/upload/hws.jpg');
             background-size: auto 100%; /* Reduced zoom */
               background-position: center;
                 background-repeat: no-repeat;
@@ -37,7 +37,7 @@ body {
                                                   position: relative;
                                                   }
 
-                                                  .hero h1 {
+                                                  .hero h2 {
                                                     font-size: 2.8rem;
                                                       color: white;
                                                         margin-bottom: 0.5rem;
@@ -50,7 +50,7 @@ body {
                                                               }
 
                                                               @media (min-width: 768px) {
-                                                                .hero h1 {
+                                                                .hero h2 {
                                                                     font-size: 3.5rem;
                                                                       }
                                                                         .hero p {
@@ -69,7 +69,7 @@ body {
                                                                                     .section-container,
                                                                                     .featured-products {
                                                                                       padding-left: 3rem;
-                                                                                        padding-right: 3rem;
+                                                                                        padding-right: 2rem;
                                                                                         }
 
                                                                                         .cards-grid {
