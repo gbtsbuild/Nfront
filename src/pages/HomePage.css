@@ -1,184 +1,347 @@
-/* HomePage.css */
-
-body {
-  margin: 0;
+/* src/components/HomePage.css */
+.homepage {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f9f9f9;
-  color: #333;
-}
+    color: #333;
+      max-width: 1400px;
+        margin: 0 auto;
+          padding: 0 20px;
+          }
 
-/* Hero Section */
-.hero {
-  background-image: url('https://res.cloudinary.com/dcxga7ojb/image/upload/v1748453709/roofnw1.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 90vh;
-  display: flex;
-  aligned-items: center;
-  padding: 2rem;
-  color: white;
-  text-align: center;
-  position: relative;
-}
+          /* Hero Section */
+          .hero {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+              border-radius: 15px;
+                margin: 30px 0;
+                  padding: 80px 40px;
+                    text-align: center;
+                      color: white;
+                        position: relative;
+                          overflow: hidden;
+                          }
 
-.hero-section::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0;
-  width: 100%; height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1;
-}
+                          .hero::before,
+                          .hero::after {
+                            content: '';
+                              position: absolute;
+                                border-radius: 50%;
+                                  background: rgba(255, 255, 255, 0.1);
+                                  }
 
-.hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
+                                  .hero::before {
+                                    top: -50px;
+                                      right: -50px;
+                                        width: 200px;
+                                          height: 200px;
+                                          }
 
-.hero p {
-  font-size: 1.25rem;
-  margin: 0;
-}
+                                          .hero::after {
+                                            bottom: -80px;
+                                              left: -50px;
+                                                width: 250px;
+                                                  height: 250px;
+                                                  }
 
-/* Featured Product Section */
-.featured-products {
-  text-align: center;
-  padding: 2rem 1rem;
-  background: #ffffff;
-}
+                                                  .hero-content {
+                                                    position: relative;
+                                                      z-index: 1;
+                                                        max-width: 800px;
+                                                          margin: 0 auto;
+                                                          }
 
-.featured-products h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
+                                                          .hero h1 {
+                                                            font-size: 3.5rem;
+                                                              margin-bottom: 20px;
+                                                                font-weight: 700;
+                                                                  color: white;
+                                                                  }
 
-.featured-products .product {
-  max-width: 600px;
-  margin: auto;
-  padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  background: #fafafa;
-}
+                                                                  .hero p {
+                                                                    font-size: 1.5rem;
+                                                                      margin-bottom: 30px;
+                                                                        max-width: 600px;
+                                                                          margin-left: auto;
+                                                                            margin-right: auto;
+                                                                            }
 
-.featured-products img {
-  max-width: 100%;
-  border-radius: 10px;
-  margin-bottom: 1rem;
-}
+                                                                            .cta-button {
+                                                                              background: white;
+                                                                                color: #6e8efb;
+                                                                                  border: none;
+                                                                                    padding: 15px 40px;
+                                                                                      font-size: 1.1rem;
+                                                                                        font-weight: 600;
+                                                                                          border-radius: 30px;
+                                                                                            cursor: pointer;
+                                                                                              transition: all 0.3s ease;
+                                                                                                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+                                                                                                }
 
-.featured-products .price {
-  color: #00695c;
-  font-weight: bold;
-}
+                                                                                                .cta-button:hover {
+                                                                                                  background: #f8f9fa;
+                                                                                                    transform: translateY(-3px);
+                                                                                                      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+                                                                                                      }
 
-/* CTA Button */
-.cta-button {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.6rem 1.2rem;
-  background-color: #00695c;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  transition: background 0.3s ease;
-}
+                                                                                                      /* Why Choose GBTS Section */
+                                                                                                      .why-choose {
+                                                                                                        padding: 80px 20px;
+                                                                                                          text-align: center;
+                                                                                                            background: #ffffff;
+                                                                                                              max-width: 1200px;
+                                                                                                                margin: 0 auto;
+                                                                                                                }
 
-.cta-button:hover {
-  background-color: #004d40;
-}
+                                                                                                                /* Section Titles */
+                                                                                                                .section-title {
+                                                                                                                  text-align: center;
+                                                                                                                    font-size: 2.5rem;
+                                                                                                                      margin-bottom: 15px;
+                                                                                                                        color: #2c3e50;
+                                                                                                                          position: relative;
+                                                                                                                            padding-bottom: 15px;
+                                                                                                                            }
 
-/* Section Container */
-.section-container {
-  padding: 2rem 1rem;
-  text-align: center;
-  background: #fff;
-  margin-bottom: 1rem;
-}
+                                                                                                                            .section-title::after {
+                                                                                                                              content: '';
+                                                                                                                                position: absolute;
+                                                                                                                                  bottom: 0;
+                                                                                                                                    left: 50%;
+                                                                                                                                      transform: translateX(-50%);
+                                                                                                                                        width: 100px;
+                                                                                                                                          height: 4px;
+                                                                                                                                            background: linear-gradient(to right, #6e8efb, #a777e3);
+                                                                                                                                              border-radius: 2px;
+                                                                                                                                              }
 
-.section-container h2 {
-  margin-bottom: 1rem;
-  color: #333;
-}
+                                                                                                                                              .section-subtitle {
+                                                                                                                                                text-align: center;
+                                                                                                                                                  font-size: 1.2rem;
+                                                                                                                                                    color: #7f8c8d;
+                                                                                                                                                      max-width: 700px;
+                                                                                                                                                        margin: 0 auto 50px;
+                                                                                                                                                          line-height: 1.6;
+                                                                                                                                                          }
 
-.section-container img {
-  max-width: 100%;
-  border-radius: 8px;
-  margin-bottom: 1rem;
-}
+                                                                                                                                                          /* Featured Products */
+                                                                                                                                                          .featured-products {
+                                                                                                                                                            margin: 80px 0;
+                                                                                                                                                            }
 
-/* Blog Excerpts */
-.blog-excerpts {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 1.5rem;
-  padding: 2rem 1rem;
-  background: #f1f1f1;
-}
+                                                                                                                                                            .products-grid {
+                                                                                                                                                              display: grid;
+                                                                                                                                                                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                                                                                                                                                                  gap: 30px;
+                                                                                                                                                                    margin-top: 30px;
+                                                                                                                                                                    }
 
-.blog-excerpt {
-  background: white;
-  padding: 1rem;
-  border-radius: 8px;
-  text-align: left;
-}
+                                                                                                                                                                    .product-card {
+                                                                                                                                                                      background: white;
+                                                                                                                                                                        border-radius: 15px;
+                                                                                                                                                                          overflow: hidden;
+                                                                                                                                                                            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+                                                                                                                                                                              transition: transform 0.3s ease, box-shadow 0.3s ease;
+                                                                                                                                                                              }
 
-.blog-excerpt h3 {
-  color: #00695c;
-  margin-bottom: 0.5rem;
-}
+                                                                                                                                                                              .product-card:hover {
+                                                                                                                                                                                transform: translateY(-10px);
+                                                                                                                                                                                  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+                                                                                                                                                                                  }
 
-.blog-excerpt p {
-  font-size: 0.95rem;
-  color: #555;
-}
+                                                                                                                                                                                  .product-image {
+                                                                                                                                                                                    position: relative;
+                                                                                                                                                                                      height: 300px;
+                                                                                                                                                                                        overflow: hidden;
+                                                                                                                                                                                        }
 
-.read-more {
-  display: inline-block;
-  margin-top: 0.5rem;
-  color: #004d40;
-  font-weight: bold;
-}
+                                                                                                                                                                                        .image-placeholder {
+                                                                                                                                                                                          height: 100%;
+                                                                                                                                                                                            background-size: cover;
+                                                                                                                                                                                              background-position: center;
+                                                                                                                                                                                                transition: transform 0.5s ease;
+                                                                                                                                                                                                }
 
-/* Footer */
-footer {
-  background-color: #263238;
-  color: #f0f0f0;
-  text-align: center;
-  padding: 2rem 1rem;
-}
+                                                                                                                                                                                                .product-card:hover .image-placeholder {
+                                                                                                                                                                                                  transform: scale(1.05);
+                                                                                                                                                                                                  }
 
-.footer-links {
-  margin-bottom: 1rem;
-}
+                                                                                                                                                                                                  .roofing {
+                                                                                                                                                                                                    background-image: url('/images/roofing.jpg');
+                                                                                                                                                                                                    }
 
-.footer-links a {
-  margin: 0 0.5rem;
-  color: #a7ffeb;
-  text-decoration: none;
-}
+                                                                                                                                                                                                    .security {
+                                                                                                                                                                                                      background-image: url('/images/security-camera.jpg');
+                                                                                                                                                                                                      }
 
-.footer-links a:hover {
-  text-decoration: underline;
-}
+                                                                                                                                                                                                      .handtools {
+                                                                                                                                                                                                        background-image: url('/images/hand-tools.jpg');
+                                                                                                                                                                                                        }
 
-footer address, footer .social-media {
-  font-size: 0.9rem;
-  margin-top: 1rem;
-}
+                                                                                                                                                                                                        .locks {
+                                                                                                                                                                                                          background-image: url('/images/locks.jpg');
+                                                                                                                                                                                                          }
 
-.social-media a {
-  color: white;
-  margin: 0 0.3rem;
-  font-size: 1.2rem;
-}
+                                                                                                                                                                                                          .appliances {
+                                                                                                                                                                                                            background-image: url('/images/appliances.jpg');
+                                                                                                                                                                                                            }
 
-.social-media a:hover {
-  color: #a7ffeb;
-}
+                                                                                                                                                                                                            .product-overlay {
+                                                                                                                                                                                                              position: absolute;
+                                                                                                                                                                                                                bottom: 0;
+                                                                                                                                                                                                                  left: 0;
+                                                                                                                                                                                                                    right: 0;
+                                                                                                                                                                                                                      background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+                                                                                                                                                                                                                        color: white;
+                                                                                                                                                                                                                          padding: 30px 20px 20px;
+                                                                                                                                                                                                                          }
 
-footer p {
-  margin-top: 1rem;
-  font-size: 0.8rem;
-  color: #ccc;
-}
+                                                                                                                                                                                                                          .product-overlay h3 {
+                                                                                                                                                                                                                            font-size: 1.5rem;
+                                                                                                                                                                                                                              margin-bottom: 5px;
+                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                              .product-overlay p {
+                                                                                                                                                                                                                                font-size: 1.2rem;
+                                                                                                                                                                                                                                  font-weight: 600;
+                                                                                                                                                                                                                                    color: #ffdd40;
+                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                    .product-button {
+                                                                                                                                                                                                                                      width: 100%;
+                                                                                                                                                                                                                                        padding: 15px;
+                                                                                                                                                                                                                                          background: #6e8efb;
+                                                                                                                                                                                                                                            color: white;
+                                                                                                                                                                                                                                              border: none;
+                                                                                                                                                                                                                                                font-size: 1.1rem;
+                                                                                                                                                                                                                                                  font-weight: 600;
+                                                                                                                                                                                                                                                    cursor: pointer;
+                                                                                                                                                                                                                                                      transition: background 0.3s ease;
+                                                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                                                      .product-button:hover {
+                                                                                                                                                                                                                                                        background: #5a7cfa;
+                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                        /* Blog Excerpts */
+                                                                                                                                                                                                                                                        .blog-excerpts {
+                                                                                                                                                                                                                                                          margin: 80px 0;
+                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                          .blog-grid {
+                                                                                                                                                                                                                                                            display: grid;
+                                                                                                                                                                                                                                                              grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                                                                                                                                                                                                                                                                gap: 30px;
+                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                .blog-card {
+                                                                                                                                                                                                                                                                  background: white;
+                                                                                                                                                                                                                                                                    border-radius: 15px;
+                                                                                                                                                                                                                                                                      padding: 30px;
+                                                                                                                                                                                                                                                                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+                                                                                                                                                                                                                                                                          transition: transform 0.3s ease;
+                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                          .blog-card:hover {
+                                                                                                                                                                                                                                                                            transform: translateY(-10px);
+                                                                                                                                                                                                                                                                            }
+
+                                                                                                                                                                                                                                                                            .blog-card h3 {
+                                                                                                                                                                                                                                                                              font-size: 1.5rem;
+                                                                                                                                                                                                                                                                                margin-bottom: 10px;
+                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                .blog-card p {
+                                                                                                                                                                                                                                                                                  font-size: 1rem;
+                                                                                                                                                                                                                                                                                    color: #555;
+                                                                                                                                                                                                                                                                                      line-height: 1.6;
+                                                                                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                                                                                      /* Footer */
+                                                                                                                                                                                                                                                                                      .footer {
+                                                                                                                                                                                                                                                                                        text-align: center;
+                                                                                                                                                                                                                                                                                          padding: 40px 20px;
+                                                                                                                                                                                                                                                                                            background-color: #2c3e50;
+                                                                                                                                                                                                                                                                                              color: #a7ffeb;
+                                                                                                                                                                                                                                                                                                border-radius: 10px;
+                                                                                                                                                                                                                                                                                                  margin: 60px auto 0;
+                                                                                                                                                                                                                                                                                                    font-size: 0.95rem;
+                                                                                                                                                                                                                                                                                                    }
+
+                                                                                                                                                                                                                                                                                                    .footer a {
+                                                                                                                                                                                                                                                                                                      color: #a7ffeb;
+                                                                                                                                                                                                                                                                                                        text-decoration: none;
+                                                                                                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                                                                                                        .footer a:hover {
+                                                                                                                                                                                                                                                                                                          text-decoration: underline;
+                                                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                                                          /* Responsive Design */
+                                                                                                                                                                                                                                                                                                          @media (max-width: 1024px) {
+                                                                                                                                                                                                                                                                                                            .hero h1 {
+                                                                                                                                                                                                                                                                                                                font-size: 3rem;
+                                                                                                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                                                                                                    .section-title {
+                                                                                                                                                                                                                                                                                                                        font-size: 2.2rem;
+                                                                                                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                                                                          @media (max-width: 768px) {
+                                                                                                                                                                                                                                                                                                                            .hero {
+                                                                                                                                                                                                                                                                                                                                padding: 60px 20px;
+                                                                                                                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                                                                                                                    .hero h1 {
+                                                                                                                                                                                                                                                                                                                                        font-size: 2.5rem;
+                                                                                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                                                                                            .hero p {
+                                                                                                                                                                                                                                                                                                                                                font-size: 1.2rem;
+                                                                                                                                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                                                                                                                                    .section-title {
+                                                                                                                                                                                                                                                                                                                                                        font-size: 2rem;
+                                                                                                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                                                                                                            .section-subtitle {
+                                                                                                                                                                                                                                                                                                                                                                font-size: 1.1rem;
+                                                                                                                                                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                                                                                                                                                    .blog-card h3 {
+                                                                                                                                                                                                                                                                                                                                                                        font-size: 1.3rem;
+                                                                                                                                                                                                                                                                                                                                                                          }
+                                                                                                                                                                                                                                                                                                                                                                          }
+
+                                                                                                                                                                                                                                                                                                                                                                          @media (max-width: 480px) {
+                                                                                                                                                                                                                                                                                                                                                                            .homepage {
+                                                                                                                                                                                                                                                                                                                                                                                padding: 0 15px;
+                                                                                                                                                                                                                                                                                                                                                                                  }
+
+                                                                                                                                                                                                                                                                                                                                                                                    .hero {
+                                                                                                                                                                                                                                                                                                                                                                                        padding: 40px 15px;
+                                                                                                                                                                                                                                                                                                                                                                                            margin: 20px 0;
+                                                                                                                                                                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                                                                                                                                                                                .hero h1 {
+                                                                                                                                                                                                                                                                                                                                                                                                    font-size: 2rem;
+                                                                                                                                                                                                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                                                                                                                                                                                                        .hero p {
+                                                                                                                                                                                                                                                                                                                                                                                                            font-size: 1rem;
+                                                                                                                                                                                                                                                                                                                                                                                                              }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                .section-title {
+                                                                                                                                                                                                                                                                                                                                                                                                                    font-size: 1.8rem;
+                                                                                                                                                                                                                                                                                                                                                                                                                      }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                        .products-grid,
+                                                                                                                                                                                                                                                                                                                                                                                                                          .blog-grid {
+                                                                                                                                                                                                                                                                                                                                                                                                                              grid-template-columns: 1fr;
+                                                                                                                                                                                                                                                                                                                                                                                                                                }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                  .featured-products,
+                                                                                                                                                                                                                                                                                                                                                                                                                                    .why-choose,
+                                                                                                                                                                                                                                                                                                                                                                                                                                      .blog-excerpts {
+                                                                                                                                                                                                                                                                                                                                                                                                                                          margin: 60px 0;
+                                                                                                                                                                                                                                                                                                                                                                                                                                            }
+                                                                                                                                                                                                                                                                                                                                                                                                                                            }
