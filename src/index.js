@@ -1,11 +1,12 @@
+// index.js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css'; // Optional: base styles like body/background/font
-import HomePage from './HomePage'; // Make sure this matches your main component
+import App from './App'; // ✅ Main component that handles routing
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HomePage />
-  </React.StrictMode>
-);
+      <App />
+        </React.StrictMode>
+        );
