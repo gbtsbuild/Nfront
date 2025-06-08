@@ -1,33 +1,33 @@
 import React from "react";
-import "./HomePage.css";
+import ".pages/HomePage.css";
 import { Link } from "react-router-dom";
 
 const categories = [
   {
-    name: 'Roofings',
-    link: '/roofings',
-    image: '/images/roofings.jpg'
+    name: "Roofings",
+    link: "/roofings",
+    image: "/images/roofings.jpg",
   },
   {
-    name: 'Hand Tools',
-    link: '/hand-tools',
-    image: '/images/hand-tools.jpg'
+    name: "Hand Tools",
+    link: "/hand-tools",
+    image: "/images/hand-tools.jpg",
   },
   {
-    name: 'Locks & Knobs',
-    link: '/locks-knobs',
-    image: '/images/locks-knobs.jpg'
+    name: "Locks & Knobs",
+    link: "/locks-knobs",
+    image: "/images/locks-knobs.jpg",
   },
   {
-    name: 'Security Cameras',
-    link: '/security-cameras',
-    image: '/images/security-cameras.jpg'
+    name: "Security Cameras",
+    link: "/security-cameras",
+    image: "/images/security-cameras.jpg",
   },
   {
-    name: 'Appliances',
-    link: '/appliances',
-    image: '/images/appliances.jpg'
-  }
+    name: "Appliances",
+    link: "/appliances",
+    image: "/images/appliances.jpg",
+  },
 ];
 
 const HomePage = () => {
@@ -38,7 +38,9 @@ const HomePage = () => {
         <div className="hero-content">
           <h1>GBTS Builders Solution Ltd</h1>
           <p className="tagline">Your One-Stop-Store for Building Materials</p>
-          <Link to="/products" className="cta-button">Shop Now</Link>
+          <Link to="/products" className="cta-button">
+            Shop Now
+          </Link>
         </div>
       </section>
 
@@ -90,13 +92,23 @@ const HomePage = () => {
         <div className="blog-grid">
           <div className="blog-card">
             <h3>Top 5 Roofing Materials in 2025</h3>
-            <p>Explore the most durable and cost-effective options for your next building project.</p>
-            <Link to="/blog-posts" className="read-more">Read More</Link>
+            <p>
+              Explore the most durable and cost-effective options for your next
+              building project.
+            </p>
+            <Link to="/blog-posts" className="read-more">
+              Read More
+            </Link>
           </div>
           <div className="blog-card">
             <h3>Why Smart Locks Are Changing Home Security</h3>
-            <p>Learn how keyless entry systems can secure your property and simplify access.</p>
-            <Link to="/blog-posts" className="read-more">Read More</Link>
+            <p>
+              Learn how keyless entry systems can secure your property and
+              simplify access.
+            </p>
+            <Link to="/blog-posts" className="read-more">
+              Read More
+            </Link>
           </div>
         </div>
       </section>
@@ -113,16 +125,43 @@ const HomePage = () => {
           <Link to="/blog-posts">Blog</Link>
         </div>
         <address>
-          Shop 1 Jubilee Market, Ikare Akoko 342211, Ondo State, Nigeria.<br />
-          Email: <a href="mailto:ask@gbtsbuildingmaterials.com">ask@gbtsbuildingmaterials.com</a><br />
+          Shop 1 Jubilee Market, Ikare Akoko 342211, Ondo State, Nigeria.
+          <br />
+          Email:{" "}
+          <a href="mailto:ask@gbtsbuildingmaterials.com">
+            ask@gbtsbuildingmaterials.com
+          </a>
+          <br />
           Phone: <a href="tel:+2347017742003">+2347017742003</a>
         </address>
         <div className="social-media">
-          <a href="https://facebook.com/profile.php?id=61575683557550" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>
-          <a href="https://x.com/gbtsstores" target="_blank" rel="noreferrer"><i className="fab fa-twitter"></i></a>
-          <a href="https://instagram.com/gbtsstores" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
-          <a href="https://pinterest.com/gbtsstores" target="_blank" rel="noreferrer"><i className="fab fa-pinterest"></i></a>
-          <a href="https://wa.me/7017742003" target="_blank" rel="noreferrer"><i className="fab fa-whatsapp"></i></a>
+          <a
+            href="https://facebook.com/profile.php?id=61575683557550"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://x.com/gbtsstores" target="_blank" rel="noreferrer">
+            <i className="fab fa-twitter"></i>
+          </a>
+          <a
+            href="https://instagram.com/gbtsstores"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://pinterest.com/gbtsstores"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-pinterest"></i>
+          </a>
+          <a href="https://wa.me/7017742003" target="_blank" rel="noreferrer">
+            <i className="fab fa-whatsapp"></i>
+          </a>
         </div>
         <p className="copyright">© 2025 GBTS Builders Solution Ltd.</p>
       </footer>

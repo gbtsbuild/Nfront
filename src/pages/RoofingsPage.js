@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./HomePage.css"; // Adjusted path: because HomePage.css is in /src/pages
+import ".pages/HomePage.css"; // Adjusted path: because HomePage.css is in /src/pages
 
 function RoofingsPage() {
   return (
@@ -8,7 +8,11 @@ function RoofingsPage() {
       <section className="hero">
         <div className="hero-content">
           <h2>Roofings</h2>
-          <p>Discover top-quality roofing materials for every project. Durability, style, and value—built for you by GBTS Builders Solution Ltd.</p>
+          <p>
+            Discover top-quality roofing materials for every project.
+            Durability, style, and value—built for you by GBTS Builders Solution
+            Ltd.
+          </p>
         </div>
       </section>
       <main className="page-container">
@@ -26,8 +30,13 @@ function RoofingsPage() {
           <Link to="/blog-posts">Blog</Link>
         </div>
         <address>
-          Shop 1 Jubilee Market, Ikare Akoko 342211, Ondo State, Nigeria.<br />
-          Email: <a href="mailto:ask@gbtsbuildingmaterials.com">ask@gbtsbuildingmaterials.com</a><br />
+          Shop 1 Jubilee Market, Ikare Akoko 342211, Ondo State, Nigeria.
+          <br />
+          Email:{" "}
+          <a href="mailto:ask@gbtsbuildingmaterials.com">
+            ask@gbtsbuildingmaterials.com
+          </a>
+          <br />
           Phone: <a href="tel:+2347017742003">+2347017742003</a>
         </address>
         <p className="copyright">© 2025 GBTS Builders Solution Ltd.</p>

@@ -1,15 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./AboutUs.css"; // Optional: Create a CSS file if needed
+import ".pages/HomePage"; // Optional: Create a CSS file if needed
 
 const AboutPage = () => {
   return (
     <main className="page-container">
-
-       {/* Hero Section */}
-       <section className="hero">
+      {/* Hero Section */}
+      <section className="hero">
         <h2>About Us</h2>
-        <p className="tagline">Find Out More About Our Company - GBTS Builders Solution Ltd</p>
+        <p className="tagline">
+          Find Out More About Our Company - GBTS Builders Solution Ltd
+        </p>
       </section>
 
       <p>
