@@ -86,4 +86,14 @@ function App() {
   );
 }
 
+import Footer from "./components/Footer";
+
+function App() {
+  return (
+    <>
+      {/* other routes/components */}
+      <Footer />
+    </>
+  );
+}
 export default App;
