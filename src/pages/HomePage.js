@@ -1,5 +1,5 @@
 import React from "react";
-import ".pages/HomePage.css";
+import "./HomePage.css";
 import { Link } from "react-router-dom";
 
 const categories = [

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./HomePage.css"; // Adjust path as needed
+import "../HomePage.css"; // Adjust path as needed
 
 const productsData = [
   {

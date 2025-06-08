@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ".pages/HomePage.css"; // Adjust path if the CSS file is elsewhere
+import "./HomePage.css"; // Adjust path if the CSS file is elsewhere
 
 function FAQPage() {
   return (

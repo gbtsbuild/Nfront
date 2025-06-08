@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ".pages/HomePage.css"; // Adjusted path: because HomePage.css is in /src/pages
+import "./HomePage.css"; // Adjusted path: because HomePage.css is in /src/pages
 
 function RoofingsPage() {
   return (
