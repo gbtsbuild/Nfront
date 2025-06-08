@@ -2,10 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 // Main pages
-import HomePage from "./HomePage";
-import ProductsPage from "./ProductsPage";
-import AboutPage from "./AboutUsPage";
-import ContactUsPage from "./ContactUsPage";
+import HomePage from ".pages/HomePage";
+import ProductsPage from ".pages/ProductsPage";
+import AboutPage from ".pages/AboutUsPage";
+import ContactUsPage from ".pages/ContactUsPage";
 
 // Category/Product pages
 import RoofingsPage from "./pages/RoofingsPage";
@@ -28,19 +28,45 @@ function App() {
     <Router>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/products">Products</Link></li>
-          <li><Link to="/roofings">Roofings</Link></li>
-          <li><Link to="/hand-tools">Hand Tools</Link></li>
-          <li><Link to="/locks-knobs">Locks & Knobs</Link></li>
-          <li><Link to="/security-cameras">Security Cameras</Link></li>
-          <li><Link to="/appliances">Appliances</Link></li>
-          <li><Link to="/about-us">About Us</Link></li>
-          <li><Link to="/contact-us">Contact Us</Link></li>
-          <li><Link to="/return-policy">Return Policy</Link></li>
-          <li><Link to="/faq">FAQ</Link></li>
-          <li><Link to="/terms">Terms of Service</Link></li>
-          <li><Link to="/blog-posts">Blog</Link></li>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/products">Products</Link>
+          </li>
+          <li>
+            <Link to="/roofings">Roofings</Link>
+          </li>
+          <li>
+            <Link to="/hand-tools">Hand Tools</Link>
+          </li>
+          <li>
+            <Link to="/locks-knobs">Locks & Knobs</Link>
+          </li>
+          <li>
+            <Link to="/security-cameras">Security Cameras</Link>
+          </li>
+          <li>
+            <Link to="/appliances">Appliances</Link>
+          </li>
+          <li>
+            <Link to="/about-us">About Us</Link>
+          </li>
+          <li>
+            <Link to="/contact-us">Contact Us</Link>
+          </li>
+          <li>
+            <Link to="/return-policy">Return Policy</Link>
+          </li>
+          <li>
+            <Link to="/faq">FAQ</Link>
+          </li>
+          <li>
+            <Link to="/terms">Terms of Service</Link>
+          </li>
+          <li>
+            <Link to="/blog-posts">Blog</Link>
+          </li>
         </ul>
       </nav>
       <Routes>
