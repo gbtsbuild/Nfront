@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css"; // Adjust the path if your CSS file is elsewhere
+import TermsPage from "./pages/TermsPage";
 
 function TermsPage() {
   return (

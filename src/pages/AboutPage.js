@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./HomePage"; // Optional: Create a CSS file if needed
+import AboutUsPage from "./pages/AboutPage"; // Optional: Create a CSS file if needed
 
 const AboutPage = () => {
   return (

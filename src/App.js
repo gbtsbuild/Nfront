@@ -2,26 +2,26 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 // Main pages
-import HomePage from ".pages/HomePage.js";
-import ProductsPage from ".pages/ProductsPage.js";
-import AboutPage from ".pages/AboutUsPage.js";
-import ContactUsPage from ".pages/ContactUsPage.js";
+import HomePage from "./pages/HomePage";
+import ProductsPage from "./AboutPage";
+import AboutPage from "./pages/AboutUsPage";
+import ContactUsPage from "./pages/ContactUsPage";
 
 // Category/Product pages
-import RoofingsPage from "./pages/RoofingsPage.js";
-import HandToolsPage from "./pages/HandToolsPage.js";
-import LocksKnobsPage from "./pages/LocksKnobsPage.js";
-import SecurityCamerasPage from "./pages/SecurityCamerasPage.js";
-import AppliancesPage from "./pages/AppliancesPage.js";
+import RoofingsPage from "./pages/RoofingsPage";
+import HandToolsPage from "./pages/HandToolsPage";
+import LocksKnobsPage from "./pages/LocksKnobsPage";
+import SecurityCamerasPage from "./pages/SecurityCamerasPage";
+import AppliancesPage from "./pages/AppliancesPage";
 
 // Info/Support/Blog pages
-import ReturnPolicyPage from "./pages/ReturnPolicyPage.js";
-import FAQPage from "./pages/FAQPage.js";
-import TermsPage from "./pages/TermsPage.js";
-import BlogPostsPage from "./pages/BlogPostsPage.js";
+import ReturnPolicyPage from "./pages/ReturnPolicyPage";
+import FAQPage from "./pages/FAQPage";
+import TermsPage from "./pages/TermsPage";
+import BlogPostsPage from "./pages/BlogPostsPage";
 
 // CSS (adjust path if needed)
-import ".pages/HomePage.css";
+import "./HomePage.css";
 
 function App() {
   return (
