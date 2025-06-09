@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css"; // Ensure this file exists and contains your styles
-import ContactUsPage from "./pages/ContactUsPage";
 
 function ContactUsPage() {
   return (

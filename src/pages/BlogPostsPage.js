@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css"; // Adjust if your CSS is elsewhere
-import BlogPostsPage from "./pages/BlogPostsPage";
+
 function BlogPostsPage() {
   return (
     <>
