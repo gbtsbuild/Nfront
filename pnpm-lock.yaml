@@ -53,8 +53,11 @@ dependencies:
   react-scripts:
     specifier: ^5.0.1
     version: 5.0.1(@babel/plugin-syntax-flow@7.27.1)(@babel/plugin-transform-react-jsx@7.27.1)(eslint@8.57.1)(react@18.3.1)(typescript@5.8.3)
+  yargs-parser:
+    specifier: ^20.2.9
+    version: 20.2.9
   yup:
-    specifier: ^1.4.1
+    specifier: ^1.6.1
     version: 1.6.1
   zustand:
     specifier: ^4.5.7
