@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import AboutUsPage from "./pages/AboutPage"; // Optional: Create a CSS file if needed
 
-const AboutPage = () => {
+const AboutUsPage = () => {
   return (
     <main className="page-container">
       {/* Hero Section */}
