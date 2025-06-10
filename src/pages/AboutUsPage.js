@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Optional: Create a CSS file if needed
+import { Link } from "react-router-dom";
 
 const AboutUsPage = () => {
   return (
@@ -63,4 +63,4 @@ const AboutUsPage = () => {
   );
 };
 
-export default AboutPage;
+export default AboutUsPage;

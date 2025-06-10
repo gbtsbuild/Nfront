@@ -16,13 +16,14 @@ function AppliancesPage() {
         <p>Content for appliances goes here...</p>
         {/* Add actual appliances products or information here as needed */}
       </main>
-      <footer>
+      <footer className="footer">
         <div className="footer-links">
           <Link to="/about-us">About Us</Link>
           <Link to="/contact-us">Contact Us</Link>
           <Link to="/return-policy">Return Policy</Link>
           <Link to="/faq">FAQ</Link>
-          <Link to="/terms">Terms of Service</Link>
+          <Link to="/terms">Terms</Link>
+          <Link to="/privacy-policy">Privacy Policy</Link>
           <Link to="/blog-posts">Blog</Link>
         </div>
         <address>

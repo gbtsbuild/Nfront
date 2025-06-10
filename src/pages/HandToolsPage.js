@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./HomePage.css"; // Adjust path if your CSS is elsewhere
+import "./HomePage.css";
 
 function HandToolsPage() {
   return (
@@ -16,7 +16,7 @@ function HandToolsPage() {
         <p>Content for hand-tools goes here...</p>
         {/* Add actual hand tools products or information here as needed */}
       </main>
-      <footer>
+      <footer className="footer">
         <div className="footer-links">
           <Link to="/about-us">About Us</Link>
           <Link to="/contact-us">Contact Us</Link>

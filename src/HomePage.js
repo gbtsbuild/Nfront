@@ -2,33 +2,23 @@ import React from "react";
 import "./HomePage.css";
 import { Link } from "react-router-dom";
 
+// Import images
+import roofingImg from "./images/roofings.jpg";
+import handToolsImg from "./images/hand-tools.jpg";
+import locksKnobsImg from "./images/locks-knobs.jpg";
+import securityCamerasImg from "./images/security-cameras.jpg";
+import appliancesImg from "./images/appliances.jpg";
+
+// Use imported image variables in your categories array
 const categories = [
-  {
-    name: "Roofings",
-    link: "/roofings",
-    image: "/images/roofings.jpg",
-  },
-  {
-    name: "Hand Tools",
-    link: "/hand-tools",
-    image: "/images/hand-tools.jpg",
-  },
-  {
-    name: "Locks & Knobs",
-    link: "/locks-knobs",
-    image: "/images/locks-knobs.jpg",
-  },
-  {
-    name: "Security Cameras",
-    link: "/security-cameras",
-    image: "/images/security-cameras.jpg",
-  },
-  {
-    name: "Appliances",
-    link: "/appliances",
-    image: "/images/appliances.jpg",
-  },
+  { name: "Roofings", link: "/roofings", image: roofingImg },
+  { name: "Hand Tools", link: "/hand-tools", image: handToolsImg },
+  { name: "Locks & Knobs", link: "/locks-knobs", image: locksKnobsImg },
+  { name: "Security Cameras", link: "/security-cameras", image: securityCamerasImg },
+  { name: "Appliances", link: "/appliances", image: appliancesImg },
 ];
+
+// ... rest of your component as before ...
 
 const HomePage = () => {
   return (

@@ -43,7 +43,9 @@ function BlogPostsPage() {
               alt="Security measures are non-negotiable"
             />
             <h3>
-              Securing Your Asset: an Appraisal of Innovative Locks and CCTV
+              <Link to="/blog-post2">
+                Securing Your Asset: an Appraisal of Innovative Locks and CCTV
+              </Link>
             </h3>
             <p>
               Everyone would want to do everything within their ambit to
@@ -53,7 +55,7 @@ function BlogPostsPage() {
               In the same vein, the security of highly valued assets such as
               documents and property is just as crucial.
             </p>
-            <Link to="/blog-posts2" className="read-more">
+            <Link to="/blog-post2" className="cta-button">
               Read More
             </Link>
           </article>
@@ -61,13 +63,13 @@ function BlogPostsPage() {
           <article className="blog-card">
             <img src="/images/blog2.jpg" alt="Home Improvement Tips" />
             <h3>
-              <Link to="/blog-post2">Simple Home Improvement Projects</Link>
+              <Link to="/blog-post3">Simple Home Improvement Projects</Link>
             </h3>
             <p>
               Learn how to enhance your space with budget-friendly updates that
               add style and function.
             </p>
-            <Link to="/blog-post2" className="cta-button">
+            <Link to="/blog-post3" className="cta-button">
               Read More
             </Link>
           </article>
@@ -75,13 +77,13 @@ function BlogPostsPage() {
           <article className="blog-card">
             <img src="/images/blog3.jpg" alt="Sustainable Building" />
             <h3>
-              <Link to="/blog-post3">Sustainable Building Materials</Link>
+              <Link to="/blog-post4">Sustainable Building Materials</Link>
             </h3>
             <p>
               Explore the eco-friendly materials that can reduce your carbon
               footprint and save costs over time.
             </p>
-            <Link to="/blog-post3" className="cta-button">
+            <Link to="/blog-post4" className="cta-button">
               Read More
             </Link>
           </article>
@@ -90,7 +92,7 @@ function BlogPostsPage() {
         </section>
       </main>
 
-      <footer>
+      <footer className="footer">
         <div className="footer-links">
           <Link to="/about-us">About Us</Link>
           <Link to="/contact-us">Contact Us</Link>

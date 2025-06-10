@@ -101,9 +101,14 @@ const ProductsPage = () => {
                 <h3>{product.title}</h3>
                 <p className="price">{product.price}</p>
                 <p>{product.description}</p>
-                <a href="#" className="cta-button">
+                {/* Replace anchor with button for accessibility if not a real link */}
+                <button className="cta-button" type="button">
                   View Product
-                </a>
+                </button>
+                {/* 
+                  If you have a product detail page in the future, use:
+                  <Link to={`/products/${product.id}`} className="cta-button">View Product</Link>
+                */}
               </div>
             ))
           ) : (
@@ -111,7 +116,7 @@ const ProductsPage = () => {
           )}
         </div>
       </main>
-      <footer>
+      <footer className="footer">
         <div className="footer-links">
           <Link to="/about-us">About Us</Link>
           <Link to="/contact-us">Contact Us</Link>
@@ -119,7 +124,7 @@ const ProductsPage = () => {
           <Link to="/faq">FAQ</Link>
           <Link to="/terms">Terms</Link>
           <Link to="/privacy-policy">Privacy Policy</Link>
-          <Link to="/blog">Blog</Link>
+          <Link to="/blog-posts">Blog</Link>
         </div>
         <address style={{ fontSize: "0.85em" }}>
           Shop 1 Jubilee Market, Ikare Akoko 342211, Ondo State, Nigeria.

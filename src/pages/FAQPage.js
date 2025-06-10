@@ -5,7 +5,10 @@ import "./HomePage.css"; // Adjust path if the CSS file is elsewhere
 function FAQPage() {
   return (
     <>
-      Questions
+      <section className="hero">
+        <h2>Questions & Answers</h2>
+        <p className="tagline">Frequently Asked Questions (FAQ)</p>
+      </section>
       <main className="page-container">
         <h2>Frequently Asked Questions (FAQ)</h2>
 
@@ -77,13 +80,13 @@ function FAQPage() {
           products meet industry standards.
         </p>
       </main>
-      <footer>
+      <footer className="footer">
         <div className="footer-links">
           <Link to="/about-us">About Us</Link>
           <Link to="/contact-us">Contact Us</Link>
           <Link to="/return-policy">Return Policy</Link>
           <Link to="/faq">FAQ</Link>
-          <Link to="/terms">Terms of Service</Link>
+          <Link to="/terms">Terms</Link>
           <Link to="/privacy-policy">Privacy Policy</Link>
           <Link to="/blog-posts">Blog</Link>
         </div>

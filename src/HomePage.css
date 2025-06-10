@@ -1,4 +1,3 @@
-/* src/HomePage.css */
 .homepage {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
@@ -165,23 +164,23 @@
 }
 
 .roofings {
-  background-image: url("/images/roofing.jpg");
+  background-image: url("./images/roofing.jpg");
 }
 
 .security {
-  background-image: url("/images/security-camera.jpg");
+  background-image: url("./images/security-camera.jpg");
 }
 
 .handtools {
-  background-image: url("/images/hand-tools.jpg");
+  background-image: url("./images/hand-tools.jpg");
 }
 
 .locks {
-  background-image: url("/images/locks.jpg");
+  background-image: url("./images/locks.jpg");
 }
 
 .appliances {
-  background-image: url("/images/appliances.jpg");
+  background-image: url("./images/appliances.jpg");
 }
 
 .product-overlay {

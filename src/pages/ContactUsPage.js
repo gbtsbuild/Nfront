@@ -56,7 +56,7 @@ function ContactUsPage() {
         </section>
       </main>
 
-      <footer>
+      <footer className="footer">
         <div className="footer-links">
           <Link to="/about-us">About Us</Link>
           <Link to="/contact-us">Contact Us</Link>

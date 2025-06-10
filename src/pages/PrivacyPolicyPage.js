@@ -9,7 +9,6 @@ function PrivacyPolicyPage() {
       <section className="hero">
         <h2>Privacy Policy</h2>
         <p className="tagline">
-          {" "}
           The following is the Privacy Policy of GBTS Builders Solution Ltd
         </p>
       </section>
@@ -40,6 +39,14 @@ function PrivacyPolicyPage() {
 
         <h2>2. How We Use Your Information</h2>
         <p>Your information may be used to:</p>
+        <ul>
+          <li>Process and fulfill your orders</li>
+          <li>Send you updates or newsletters</li>
+          <li>Respond to your inquiries</li>
+          <li>Improve our website and services</li>
+          <li>Comply with legal obligations</li>
+        </ul>
+
         <h2>3. Data Protection</h2>
         <p>
           We implement security measures such as SSL encryption, firewalls, and
@@ -94,7 +101,7 @@ function PrivacyPolicyPage() {
         </p>
       </main>
 
-      <footer>
+      <footer className="footer">
         <div className="footer-links">
           <Link to="/about-us">About Us</Link>
           <Link to="/contact-us">Contact Us</Link>

@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Main pages
 import HomePage from "./pages/HomePage";
@@ -34,8 +34,8 @@ function App() {
         <Route path="/locks-knobs" element={<LocksKnobsPage />} />
         <Route path="/security-cameras" element={<SecurityCamerasPage />} />
         <Route path="/appliances" element={<AppliancesPage />} />
-        <Route path="/about-us" element={<AboutPage />} />
-        <Route path="/contact-us" element={<ContactPage />} />
+        <Route path="/about-us" element={<AboutUsPage />} />
+        <Route path="/contact-us" element={<ContactUsPage />} />
         <Route path="/return-policy" element={<ReturnPolicyPage />} />
         <Route path="/faq" element={<FAQPage />} />
         <Route path="/terms" element={<TermsPage />} />
