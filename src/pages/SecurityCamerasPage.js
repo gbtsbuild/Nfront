@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css"; // Adjust the path if your CSS file is elsewhere
+import SecurityCamerasPageImg from "./images/securitycameras.jpg"; // <-- Import your image
 
 function SecurityCamerasPage() {
   return (
