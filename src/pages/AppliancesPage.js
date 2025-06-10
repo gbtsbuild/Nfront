@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css"; // Adjust the path if your CSS file is elsewhere
+import appliancesImg from "./images/appliances.jpg"; // <-- Import your image
 
 function AppliancesPage() {
   return (

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css";
+import handToolsImg from "./images/hand-tools.jpg"; // <-- Import your image
 
 function HandToolsPage() {
   return (
