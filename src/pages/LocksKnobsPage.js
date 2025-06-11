@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./HomePage.css"; // Adjust path if your CSS is elsewhere
+import "../styles/HomePage.css"; // Adjust path if your CSS is elsewhere
 
 function LocksKnobsPage() {
   return (
