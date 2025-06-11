@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomePage.css";
+import "../styles/HomePage.css";
 import { Link } from "react-router-dom";
 
 // Import images
