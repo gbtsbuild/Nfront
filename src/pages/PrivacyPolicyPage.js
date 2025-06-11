@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/HomePage.css"; // Adjust if your CSS is elsewhere
 
 function PrivacyPolicyPage() {
   return (
