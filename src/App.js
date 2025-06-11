@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "../HomePage.css";
+import "../styles/HomePage.css";
 
 // Main pages
-import HomePage from "../HomePage.js";
+import HomePage from "./pages/HomePage.js";
 import ProductsPage from "./pages/ProductsPage";
 import AboutUsPage from "./pages/AboutUsPage";
 import ContactUsPage from "./pages/ContactUsPage";
