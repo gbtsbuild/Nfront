@@ -56,9 +56,18 @@ dependencies:
   react-scripts:
     specifier: ^5.0.1
     version: 5.0.1(@babel/plugin-syntax-flow@7.27.1)(@babel/plugin-transform-react-jsx@7.27.1)(eslint@8.57.1)(react@18.3.1)(typescript@5.8.3)
+  yaml:
+    specifier: ^1.10.2
+    version: 1.10.2
+  yargs:
+    specifier: ^16.2.0
+    version: 16.2.0
   yargs-parser:
     specifier: ^20.2.9
     version: 20.2.9
+  yocto-queue:
+    specifier: ^0.1.0
+    version: 0.1.0
   yup:
     specifier: ^1.6.1
     version: 1.6.1

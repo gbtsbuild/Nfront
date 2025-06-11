@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./HomePage.css"; // Adjust path if your CSS is elsewhere
-import locksKnobsImg from "./images/locks-knobs.jpg"; // <-- Import your image
 
 function LocksKnobsPage() {
   return (
