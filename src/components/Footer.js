@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Footer.css"; // Optional: if you want to style it separately
+import "../styles/HomePage.css"; // Optional: if you want to style it separately
 
 function Footer() {
   return (
