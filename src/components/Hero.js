@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomePage.css"; // Ensure this CSS is properly imported in HomePage or App
+import "../styles/HomePage.css"; // Ensure this CSS is properly imported in HomePage or App
 
 const Hero = () => {
   return (
