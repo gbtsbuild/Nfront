@@ -3,11 +3,11 @@ import "../styles/HomePage.css";
 import { Link } from "react-router-dom";
 
 // Import images
-import roofingImg from "./images/roofings.jpg";
-import handToolsImg from "./images/hand-tools.jpg";
-import locksKnobsImg from "./images/locks-knobs.jpg";
-import securityCamerasImg from "./images/security-cameras.jpg";
-import appliancesImg from "./images/appliances.jpg";
+import roofingImg from "../images/roofings.jpg";
+import handToolsImg from "../images/hand-tools.jpg";
+import locksKnobsImg from "../images/locks-knobs.jpg";
+import securityCamerasImg from "../images/security-cameras.jpg";
+import appliancesImg from "../images/appliances.jpg";
 
 // Use imported image variables in your categories array
 const categories = [
