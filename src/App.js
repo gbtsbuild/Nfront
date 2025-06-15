@@ -22,7 +22,7 @@ import TermsPage from "./pages/TermsPage";
 import BlogPostsPage from "./pages/BlogPostsPage";
 
 // CSS (adjust path if needed)
-import "./HomePage.css";
+import "./styles/HomePage.css";
 
 function App() {
   return (
